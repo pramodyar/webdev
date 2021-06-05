@@ -1,0 +1,1596 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Complete Video Tutorials List</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+        <style>
+            nav {
+                font-family: 'Comic Neue', cursive,'comic sans ms',sans-serif;
+				font-weight: 700;
+                width: 25%;
+                background-color: #3ec1d3	;
+                overflow: auto;
+                height: 600px;
+                position: fixed;
+                line-height: 175%;
+				color: #ff165d
+			}	
+			nav ul {
+				text-decoration:none;
+			}
+            
+            a {color: #ff165d;}
+            a {text-decoration: none;}
+            a:visited {color: #ff165d }
+            ul {display: none;list-style: square;}
+            ol > li:hover > ul {display: block;}
+            nav li:hover > span {display: none;}
+            ol > li:hover > a {background-color: rgba(233, 235, 233, 0.3);} 
+            ul > li:hover > a { background-color: rgba(233, 235, 233, 0.3); }
+            nav button {color: red; font-weight: bold;font-size:12px;}
+            nav span {color: rgb(37, 143, 161);}
+			#doc span {color:green;}
+			#doc .crr{font-size:12px;color:#1b262c;font-weight:bold;}
+            
+            div {
+                float: right;width: 71%;
+                background-color: #f6f7d7;
+                padding: 5px;
+                font-family: 'comic sans ms','Comic Neue', cursive, sans-serif;
+                line-height: 1.5;
+				color: #ff165d;
+            }
+                h1 {text-align: center;color: #3ec1d3;border: 2px solid white;background-color: #1f2833;position:sticky;top: -1px; }
+                h2 {text-align: center;color: #c5c6c7;border: 2px solid white;background-color: #1f2833;border-radius: 30px;padding:0 10px;width: 80%;margin: 0 auto;}
+				h3 {background-color:#1f2833;width: 200px;padding: 0 20px;display: inline; border-radius: 30px;}
+                i {color:  #ff9a00;}
+                em {color: green}
+				b  {color: #3ec1d3}
+                div button {width: 150px;height: 30px;background-color: #aabbcc;display: inline;padding: 4px;}
+                input {font-family: Consolas;font-size: 16px;font-weight: bold;width: 30px;}
+                .finished {background-color: rgba(149, 206, 149, 0.2);}
+                .but-spn {float:right;color: black;}
+                div span {color: #800080;}	
+				
+				
+            
+        </style>
+    </head>
+    <body>
+        <nav >
+			<ol style="list-style-type: none">
+				<li><a href="#dlp" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-code" viewBox="0 0 16 16">
+  <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2z"/>
+  <path d="M8.646 6.646a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L10.293 9 8.646 7.354a.5.5 0 0 1 0-.708zm-1.292 0a.5.5 0 0 0-.708 0l-2 2a.5.5 0 0 0 0 .708l2 2a.5.5 0 0 0 .708-.708L5.707 9l1.647-1.646a.5.5 0 0 0 0-.708z"/>
+</svg> Development&nbsp</a><span>>>></span>
+					<ul>
+						<li><a href="#cp" >Career Paths</a></li>
+						<li><a href="#pf" >Programming Foundation</a></li>
+						<li> <a href="#pl" >Programming Languages&nbsp</a><button onclick=change(this)>+</button>
+							<ul>
+								<li><a href="#c" >C</a></li>
+								<li><a href="#cpp">C++ 	</a></li>
+								<li><a href="#csh" >C# </a></li> 
+								<li><a href="#java" >Java </a></li> 
+								<li><a href="#py" >Python </a></li> 
+								<li><a href="#go" >Go </a></li> 
+								<li><a href="#sw" >Swift / IOS </a> </li>
+								<li><a href="#rb" >Ruby </a></li>
+								<li><a href="#xml" >XML</a> </li>
+								<li><a href="#regx" >Regular Expression</a> </li>
+								<li><a href="#other" >Other Languages</a> </li>
+							</ul>
+						</li>
+						<li><a href="#dsa" >Data Structres and Algorithms</a></li>
+						<li><a href="#dp" >Design Patterns</a></li>
+						<li><a href="#tqa" >Testing & Quality Assurance</a></li>
+						<li><a href="#dm" >Database Management</a></li>
+						<li><a href="#ca" >Computer Architecture</a></li>
+						<li><a href="#dt" >Development Tools&nbsp</a><button onclick=change(this)>+</button>
+							<ul>
+								<li><a href="#tei" >Text Editors & IDEs</a></li>
+								<li><a href="#plt" >Platforms</a></li>
+							</ul>
+						</li>
+					</ul>
+					</ul>
+				</li>
+			    <li><a href="#it" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-laptop" viewBox="0 0 16 16">
+  <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z"/>
+</svg> Information Technology&nbsp</a><span>>>></span>
+                	<ul>
+                	    <li><a href="#itcp" >IT Career Paths</a></li> 
+                	    <li><a href="#nw" >Networking</a></li>
+                        <li><a href="#hs">Hacking and Security</a></li>
+                        <li> <a href="#os" >Operating Systems&nbsp</a><button onclick=change(this)>+</button>
+							<ul>
+							    <li><a href="#win" >Windows</a> </li>
+							    <li><a href="#lnx" >Linux</a> </li>
+							    <li><a href="#mac" >Mac OS</a> </li>
+							</ul>
+						</li>
+                	    <li><a href="#sdh" >Service desk and Hardware</a></li> 
+                	    <li><a href="#ies" >IOT & Embedded Systems </a></li> 
+                	    <li><a href="#nt" >New Technologies</a></li> 
+                	    <li><a href="#sme" >Social Media & e-Moeny </a></li> 
+                	</ul>
+                </li>
+				<li><a href="#cc" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cloud" viewBox="0 0 16 16">
+  <path d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383zm.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z"/>
+</svg> Cloud Computing&nbsp</a><span>>>></span>
+					<ul>
+						<li><a href="#cfd" >Fundamentals</a> </li>
+						<li><a href="#aws" >AWS</a> </li>
+						<li><a href="#gcl" >Google Cloud</a> </li>
+						<li><a href="#azr" >Microsoft Azure</a> </li>
+						<li><a href="#o365" >Office 365 </a><button onclick=change(this)>+</button>
+							<ul>
+								<li><a href="#oad" >Administration</a> </li>
+							    <li><a href="#oex" >Exchange</a> </li>
+							    <li><a href="#osot" >Sharepoint,Onedrive,Teams</a> </li>
+							    <li><a href="#otrb" >Troubleshooting</a> </li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+                <li><a href="#wb" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe2" viewBox="0 0 16 16">
+  <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z"/>
+</svg> Web Designing&nbsp</a><span>>>></span>
+                	<ul>
+                	    <li> <a href="#wb-lg" >Languages&nbsp</a><button onclick=change(this)>+</button>
+							<ul>
+							    <li><a href="#html" >HTML</a> </li>
+							    <li><a href="#css" >CSS</a> </li>
+							    <li><a href="#js" >JavaScript</a> </li>
+							    <li><a href="#php" >PHP</a> </li>
+							    <li><a href="#tpst" >TypeScript</a> </li>
+							</ul>
+                        </li>
+                	    <li> <a href="#wb-lb" >Libraries/APIs/Frameworks&nbsp</a><button onclick=change(this)>+</button>
+                    		<ul>
+                    		    <li><a href="#jq" >Jquery</a> </li>
+                    		    <li><a href="#ajax" >Ajax / Json</a> </li>
+							    <li><a href="#bts" >Bootstrap</a> </li>
+							    <li><a href="#wp" >WordPress</a> </li>
+							    <li><a href="#ang" >Angular</a> </li>
+							    <li><a href="#rct" >React</a> </li>
+                    		    <li><a href="#node" >Node.js</a> </li>
+                    		    <li><a href="#d3">D3.js</a> </li>
+							    <li><a href="#asp" >Asp.net</a> </li>
+							    <li><a href="#djng" >Django</a> </li>
+							</ul>
+                        </li>
+                	    <li><a href="#wb-fs" >Full-Stuck Development</a> </li>
+                	    <li><a href="#wb-sf" >Softwares</a> </li>
+                	    <li><a href="#wb-mb" >MobileWeb & Responsive Design</a> </li>
+                	</ul>
+                </li>
+                <li><a href="#op" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-diagram-3" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M6 3.5A1.5 1.5 0 0 1 7.5 2h1A1.5 1.5 0 0 1 10 3.5v1A1.5 1.5 0 0 1 8.5 6v1H14a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0v-1A.5.5 0 0 1 2 7h5.5V6A1.5 1.5 0 0 1 6 4.5v-1zM8.5 5a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1zM0 11.5A1.5 1.5 0 0 1 1.5 10h1A1.5 1.5 0 0 1 4 11.5v1A1.5 1.5 0 0 1 2.5 14h-1A1.5 1.5 0 0 1 0 12.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zm4.5.5A1.5 1.5 0 0 1 7.5 10h1a1.5 1.5 0 0 1 1.5 1.5v1A1.5 1.5 0 0 1 8.5 14h-1A1.5 1.5 0 0 1 6 12.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zm4.5.5a1.5 1.5 0 0 1 1.5-1.5h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1z"/>
+</svg> Office Productivity&nbsp</a><span>>>></span>
+                	<ul >
+                	    <li><a href="#ms">Microsoft Office</a></li>
+                	    <li><a href="#gl">Google Apps</li>
+                	    <li><a href="#adb">Adobe Acrobat</li>
+                	    <li><a href="#dbx">Dropbox</a></li>
+                	    <li><a href="#sap">SAP</a></li>
+                	</ul>
+                </li>
+                <li><a href="#dsn" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-palette" viewBox="0 0 16 16">
+  <path d="M8 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm4 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM5.5 7a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm.5 6a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+  <path d="M16 8c0 3.15-1.866 2.585-3.567 2.07C11.42 9.763 10.465 9.473 10 10c-.603.683-.475 1.819-.351 2.92C9.826 14.495 9.996 16 8 16a8 8 0 1 1 8-8zm-8 7c.611 0 .654-.171.655-.176.078-.146.124-.464.07-1.119-.014-.168-.037-.37-.061-.591-.052-.464-.112-1.005-.118-1.462-.01-.707.083-1.61.704-2.314.369-.417.845-.578 1.272-.618.404-.038.812.026 1.16.104.343.077.702.186 1.025.284l.028.008c.346.105.658.199.953.266.653.148.904.083.991.024C14.717 9.38 15 9.161 15 8a7 7 0 1 0-7 7z"/>
+</svg> Design&nbsp</a><span>>>></span>
+					<ul>
+						<li><a href="#gd">Graphic Design</a></li>
+						<li><a href="#3d">3D Modeling</a></li>
+						<li><a href="#ave">Animation & Video Editing</a></li>
+					</ul>
+                <li><a href="#mad" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+  <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+  <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+</svg> Mobile App Development&nbsp</a><span>>>></span>
+					<ul>
+						<li><a href="#and">Android</a></li>
+						<li><a href="#ios">IOS</a></li>
+					</ul>
+                <li><a href="#gmd" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-controller" viewBox="0 0 16 16">
+  <path d="M11.5 6.027a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm-6.5-3h1v1h1v1h-1v1h-1v-1h-1v-1h1v-1z"/>
+  <path d="M3.051 3.26a.5.5 0 0 1 .354-.613l1.932-.518a.5.5 0 0 1 .62.39c.655-.079 1.35-.117 2.043-.117.72 0 1.443.041 2.12.126a.5.5 0 0 1 .622-.399l1.932.518a.5.5 0 0 1 .306.729c.14.09.266.19.373.297.408.408.78 1.05 1.095 1.772.32.733.599 1.591.805 2.466.206.875.34 1.78.364 2.606.024.816-.059 1.602-.328 2.21a1.42 1.42 0 0 1-1.445.83c-.636-.067-1.115-.394-1.513-.773-.245-.232-.496-.526-.739-.808-.126-.148-.25-.292-.368-.423-.728-.804-1.597-1.527-3.224-1.527-1.627 0-2.496.723-3.224 1.527-.119.131-.242.275-.368.423-.243.282-.494.575-.739.808-.398.38-.877.706-1.513.773a1.42 1.42 0 0 1-1.445-.83c-.27-.608-.352-1.395-.329-2.21.024-.826.16-1.73.365-2.606.206-.875.486-1.733.805-2.466.315-.722.687-1.364 1.094-1.772a2.34 2.34 0 0 1 .433-.335.504.504 0 0 1-.028-.079zm2.036.412c-.877.185-1.469.443-1.733.708-.276.276-.587.783-.885 1.465a13.748 13.748 0 0 0-.748 2.295 12.351 12.351 0 0 0-.339 2.406c-.022.755.062 1.368.243 1.776a.42.42 0 0 0 .426.24c.327-.034.61-.199.929-.502.212-.202.4-.423.615-.674.133-.156.276-.323.44-.504C4.861 9.969 5.978 9.027 8 9.027s3.139.942 3.965 1.855c.164.181.307.348.44.504.214.251.403.472.615.674.318.303.601.468.929.503a.42.42 0 0 0 .426-.241c.18-.408.265-1.02.243-1.776a12.354 12.354 0 0 0-.339-2.406 13.753 13.753 0 0 0-.748-2.295c-.298-.682-.61-1.19-.885-1.465-.264-.265-.856-.523-1.733-.708-.85-.179-1.877-.27-2.913-.27-1.036 0-2.063.091-2.913.27z"/>
+</svg> Game Development&nbsp</a></li>
+				<li><a href="#bl" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-graph-up" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M0 0h1v15h15v1H0V0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5z"/>
+</svg> Business & Languages&nbsp</a><span>>>></span>
+					<ul>
+						<li><a href="#be">Business Etiquette</a></li>
+						<li><a href="#el">English Language </a></li>
+					</ul>
+                <li> <a href="#scc" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-thermometer-half" viewBox="0 0 16 16">
+  <path d="M9.5 12.5a1.5 1.5 0 1 1-2-1.415V6.5a.5.5 0 0 1 1 0v4.585a1.5 1.5 0 0 1 1 1.415z"/>
+  <path d="M5.5 2.5a2.5 2.5 0 0 1 5 0v7.55a3.5 3.5 0 1 1-5 0V2.5zM8 1a1.5 1.5 0 0 0-1.5 1.5v7.987l-.167.15a2.5 2.5 0 1 0 3.333 0l-.166-.15V2.5A1.5 1.5 0 0 0 8 1z"/>
+</svg> Science&nbsp</a><span>>>></span>
+					<ul>
+						<li><a href="#phy">Physics and Chemistry</a></li>
+						<li><a href="#ast">Astronomy</a></li>
+						<li><a href="#er">Electronics & Robotics</a></li>
+						<li><a href="#hlt">Helth</a></li>
+					</ul>
+				</li>
+			</ol>        
+        </nav>
+        <div id="doc">
+        	<button id="btn" onclick=viewCount() ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-server" viewBox="0 0 16 16">
+  <path d="M1.333 2.667C1.333 1.194 4.318 0 8 0s6.667 1.194 6.667 2.667V4c0 1.473-2.985 2.667-6.667 2.667S1.333 5.473 1.333 4V2.667z"/>
+  <path d="M1.333 6.334v3C1.333 10.805 4.318 12 8 12s6.667-1.194 6.667-2.667V6.334a6.51 6.51 0 0 1-1.458.79C11.81 7.684 9.967 8 8 8c-1.966 0-3.809-.317-5.208-.876a6.508 6.508 0 0 1-1.458-.79z"/>
+  <path d="M14.667 11.668a6.51 6.51 0 0 1-1.458.789c-1.4.56-3.242.876-5.21.876-1.966 0-3.809-.316-5.208-.876a6.51 6.51 0 0 1-1.458-.79v1.666C1.333 14.806 4.318 16 8 16s6.667-1.194 6.667-2.667v-1.665z"/>
+</svg> All Courses</button> <input type="text" id="vids" disabled> <span class="but-spn">Date: 2021 June 04</span>
+            
+            <button id="btn4" onclick=finishCount() ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+  <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+</svg> Completed</button> <input type="text" id="finish" disabled> 
+			<hr>
+            
+        	<h1 id="dlp">DEVELOPMENT&nbsp</h1>
+                <h2 id="cp" >Career Paths&nbsp<a href="#btn"></a></h2>
+					<ol>
+						<li><i>Lynda</i> - Developer Career Paths and Certifications (2018) <b>(EHD)</b></li>
+					</ol>
+                <h2 id="pf" >Programming Foundations&nbsp<a href="#btn"></a></h2>
+					<ol>
+                        <li><i>MIT</i> - Introduction to Computer Science and Programming <b>(69)</b></li>
+                        <li><i>MIT</i> - Mathematics for Computer Science <span>(6-042j-spring | 2015)</span> <b>(68)</b></li>  
+                        <li class="finished"><i>Lynda</i> - Foundation of Programming: Fundamentals <b>(18)</b></li>
+                        <li><i>Lynda</i> - Foundation of Programming: Object Oriented Programming <b>(18)</b></li>    
+                        <li><i>Lynda</i> - Programming Foundations -Object-Oriented Design (2018) <b>(EHD)</b></li>    
+                        <li><i>Lynda</i> - Programming Foundations- Beyond the Fundamentals (2020) <b>(EHD)</b></li>    
+                        <li><i>Coursera</i> - Computer Science 101 <span>(Stanford University)</span> <b>(57)</b></li>
+						
+                    </ol>
+                    
+            	<h2 id="pl" >Programming Languages&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h2>
+				    <h3 id="c">C</h3>
+						<ol> 
+							<li class="finished" ><i>Lynda</i> - C Essential Training <b>(10)</b></li>
+							<li><i>Lynda</i> - Learning C (2018) <b>(EHD)</b></li>                 
+							<li><i>Lynda</i> - C Essential Training- 1 The Basics (2018) <b>(EHD)</b></li>                 
+							<li><i>Lynda</i> - Further Topics in C <b>(13)</b></li>
+							<li><i>Lynda</i> - Advanced C Programming (2015) <b>(EHD)</b></li>                 
+							<li><i>Lynda</i> - C Data Structures, Pointers, and File Systems (2019) <b>(EHD)</b></li>
+							<li><i>Lynda</i> - Secure Coding in C (2019)<b>(EHD)</b></li>                 
+							<li><i>Lynda</i> - C Standard Library (2019) <b>(EHD)</b></li>
+							<li><i>Lynda</i> - Exploring C Libraries (2019) <b>(EHD)</b></li>                 
+							<li><i>Lynda</i> - Code Clinic C <b>(13)</b></li>
+							<li><i>Lynda</i> - Code Clinic C (2018) <b>(EHD)</b></li>
+							<li><i>Lynda</i> - C Programming for Embedded Applications (2018) <b>(EHD)</b></li>
+							<li> <i>Coursera</i> - Introduction to Programming in C Specialization <span>(Duke 2020) </span><b>(EHD)</b></li>
+							  <span class="crr">i. Programming Fundamentals </span><br>
+							  <span class="crr">ii. Writing Running Fixing Code </span><br>
+							  <span class="crr">iii. Pointers Arrays Recursion </span><br>
+							  <span class="crr">iv. Interacting System Managing Memory </span><br>
+							<li> <i>Coursera</i> - Computational Thinking with Beginning C Programming Specialization <span>(Colorado 2020) </span><b>(EHD)</b></li>
+							  <span class="crr">i. Algorithms, Data Collection, and Starting to Code </span><br>
+							  <span class="crr">ii. Data Analysis and Representation, Selection and Iteration </span><br>
+							  <span class="crr">iii. Abstraction, Problem Decomposition, and Functions </span><br>
+							  <span class="crr">iv. Simulation, Algorithm Analysis, and Pointers </span><br>  
+							<li class="finished" ><i>Cplusplus Tutor.com</i> - C Video Tutorials <b>(23)</b></li>
+						</ol>
+					<h3 id="cpp">C++ </h3>
+                        <ol>
+                            <li class="finished" ><i>Lynda</i> - C/C++ Essential Training (2012)<b> (01)</b></li>
+                            <li><i>Lynda</i> - C++ Essential Training (2015) <b>(23)</b></li>
+                            <li><i>Lynda</i> - C++ Advanced Topics (2018) <b>(EHD)</b></li>
+                            <li><i>Lynda</i> - C++ Move Semantics (2015) <b>(90)</b></li>
+					    	<li><i>Lynda</i> - C++ Pointers (2017) <b>(102)</b></li>
+                            <li><i>Lynda</i> - C++ Smart Pointers (2015) <b>(108)</b></li>
+                            <li><i>Lynda</i> - C++ Building a String Library (2015) <b>(108)</b></li>
+                            <li><i>Lynda</i> - C++ Templates and the STL (2018) <b>(EHD)</b></li>
+                            <li><i>Lynda</i> - C++ Standard Template Library (2018) <b>(EHD)</b></li>
+                            <li><i>Lynda</i> - Introducing Functional Programming in C++ (2018) <b>(EHD)</b></li>
+                            <li><i>Lynda</i> - C++ Best Practices for Developers (2018) <b>(EHD)</b></li>
+                            <li><i>Lynda</i> - Code Clinic C++ (2015)<b> (23)</b></li>
+                            <li><i>Lynda</i> - Code Clinic C++ (2019) <b>(EHD)</b></li>
+                            <li><i>Lynda</i> - Nail Your C++ Interview (2019) <b>(EHD)</b></li>
+                            <li><i>Lynda</i> - Web Servers and APIs using C++ (2018) <b>(EHD)</b></li>
+                            <li><i>Lynda</i> - Test-Driven Development in C++ (2018) <b>(EHD)</b></li>
+                            <li><i>Udemy</i> - C++ Programming in QT FrameWork: part 1 and 2 <b>(47)</b></li>
+                            <li><i>Udemy</i> - C++ Tutorial for Complete Beginners <b>(46)</b></li>
+					    	<li><i>Udemy</i> - Learn Advanced C++ Programming (2017) <b>(114)/(115)</b></li>
+                            <li><i>Udemy</i> - C++ Operation on Files <b>(62)</b></li>
+                            <li><i>Udemy</i> - Introduction to Data Structures and Algorithms in C++ <b>(48)</b></li>
+                            <li class="finished"><i>Bucky's</i> - C++ Tutorials <b>(02)</b></li>
+                            <li><i>Bucky's</i> - C++ GUI with QT <b>(26)</b></li>
+                            <li><i>O'reilly</i> - Modern C++ Design Patterns (2017) <b>(90)</b></li>
+                            <li><i>Coursera</i> - C++ for C programmers: part A<span> (UCSC 2016) </span> <b>(49)</b></li>
+                            <li><i>Coursera</i> - C++ for C programmers: part B<span> (UCSC 2016) </span> <b>(49)</b></li>
+					    	<li><i>Stanford</i> - Programming Paradigms (CS - 107) (2008) <b>(116)/(117)</b></li>
+                            <li><i>Pluralsight</i> - Introduction to the Boost C++ Libraries (2014) <b>(90)</b></li>
+                            <li><i>Pluralsight</i> - Beautiful C++ -STL Algorithms (2016) <b>(EHD)</b></li>
+                            <li><i>Pluralsight</i> - C++ Unit Testing Fundamentals Using Catch (2016) <b>(EHD)</b></li>
+                            <li><i>Pluralsight</i> - C++11 Language Features (2013) <b>(EHD)</b></li>
+                            <li><i>Pluralsight</i> - Design Patterns in C++ Structural - Adapter to Decorator (2016) <b>(EHD)</b></li>
+                            <li><i>Pluralsight</i> - Design Patterns in C++ Structural - Façade to Proxy (2016) <b>(EHD)</b></li>
+                            <li><i>Pluralsight</i> - High-performance Computing in C++ (2015) <b>(EHD)</b></li>
+                            <li><i>Pluralsight</i> - Modern C++ Concurrency (2013) <b>(EHD)</b></li>
+                            <li><i>Pluralsight</i> - Modern C++ Libraries (2013) <b>(EHD)</b></li>
+                            <li class="finished" ><i>InfiniteSkills</i> - C++ Beginner Tutorials <b>(10)</b></li>
+                            <li><i>InfiniteSkills</i> - C++ Advanced Tutorials<b>(10)</b></li>
+                            <li><i>InfiniteSkills</i> - C++ Memory Management <b>(10)</b></li>
+                        </ol>
+					<h3 id="csh">C# </h3>
+						<ol>
+							<li><i>Lynda</i> - C# Essential Training (2009) <b>(09)</b></li>
+							<li><i>Lynda</i> - C# Essential Training <b>(26)</b></li>
+							<li><i>Lynda</i> - C# 6.0 First Look (2015) <b>(88)</b></li>
+							<li><i>Lynda</i> - C# 7 First Look (2017) <b>(102)</b></li>
+							<li><i>Lynda</i> - C# Delegates, Events and Lambdas (2015) <b>(88)</b></li>
+							<li><i>Lynda</i> - C# Interfaces and Generics (2015) <b>(88)</b></li>
+							<li><i>Lynda</i> - C# Test Driven Development (2016) <b>(88)</b></li>
+							<li><i>Lynda</i> - C# File System Tips and Tricks (2017) <b>(102)</b></li>
+							<li><i>Lynda</i> - C# Design Patterns (2016) <b>(88)</b></li>
+							<li><i>Lynda</i> - Learning C# Algorithms (2017) <b>(102)</b></li>
+							<li><i>Lynda</i> - Intermediate C# Design Patterns Part 2 (2017) <b>(88)</b></li>
+							<li><i>Lynda</i> - Intermediate C# Design Patterns Part 3 (2017) <b>(88)</b></li>
+							<li><i>Lynda</i> - LINQ with C# Essential Training (2015) <b>(88)</b></li>
+							<li><i>Lynda</i> - WPF 1: Build Dramatic Desktop Applications (2016) <b>(66)</b></li>
+							<li><i>Lynda</i> - WPF 2: Layout (2016) <b>(66)</b></li>
+							<li><i>Lynda</i> - WPF-3 Events and the Event Model (2016) <b>(102)</b></li>
+							<li><i>Lynda</i> - WPF 4: Brushes and Colors (2017) <b>(89)</b></li>
+							<li><i>Lynda</i> - WPF-5 Interaction and Controls (2017) <b>(102)</b></li> 
+							<li><i>Lynda</i> - Code Clinic C# <b>(13)</b></li>
+							<li><i>Lynda</i> - C# & .NET-Programming (2016) <b>(102)</b></li>
+							<li><i>Lynda</i> - C# Object-Oriented Programming Tips and Tricks (2017) <b>(102)</b></li>	
+							<li><i>Lynda</i> - Learning .NET Programming (2016) <b>(102)</b></li>
+							<li><i>Lynda</i> - Microsoft XAML -1 Core Concepts (2016) <b>(102)</b></li>
+							<li><i>Lynda</i> - Microsoft XAML -2 Content and Properties (2016) <b>(102)</b></li>
+							<li><i>Lynda</i> - Microsoft XAML -3 Type Converters and Resources (2016) <b>(102)</b></li>
+							<li><i>Lynda</i> - Nail Your C# Developer Interview (2017) <b>(EHD)</b></li>
+							<li><i>Packt</i> - Functional Programming in C# - Part 1 (2017) <b>(90)</b></li>
+							<li><i>Packt</i> - Functional Programming in C# - Part 2 (2017) <b>(90)</b></li>
+							<li><i>Udemy</i> - C# Developers:Double Your Coding Speed With Visual Studio <b>(55)</b></li>
+							<li><i>AppDev</i> - WPF Using Visual C# 2010 <b>(44)</b></li>
+							<li><i>Pluralsight</i> - C# Generics (2013) <b>(90)</b></li>
+							<li><i>LiveLessonsy</i> - WPF 4.5 Programming [Part] <b>(44)</b></li>
+							<li><i>TheNewboston</i> - C# Beginner's Tutorial <b>(52)</b></li>
+							<li>C# WPF Tutorial for Beginners <b>(44)</b></li>
+						</ol>
+					<h3 id="java">Java </h3>
+						<ol>
+							<li> <i>Lynda</i> - Java Essential Training </span><i>(2011 Java6)</i><b> (04)</b></li>
+							<li> <i>Lynda</i> - Java Essential Training </span><i>(2011 Java7)</i> <b>(33)</b></li>
+							<li> <i>Lynda</i> - Learning Java (2020) <b>(EHD)</b></li>
+							<li> <i>Lynda</i> - Java 11+ Essential Training (2019) <b>(EHD)</b></li>
+							<li> <i>Lynda</i> - Java Advanced Training <i>(2012)</i> <b>(23)</b></li>
+							<li> <i>Lynda</i> - Java IDE Overview (2016) <b>(101)</b></li>
+							<li> <i>Lynda</i> - Java Platforms Compared-SE vs EE vs ME (2016) <b>(101)</b></li> 
+							<li> <i>Lynda</i> - Learning Java by Example (2016) <b>(101)</b></li>
+							<li> <i>Lynda</i> - Up and Running With Java Application (2016) <b>(43)</b></li>
+							<li> <i>Lynda</i> - Java SE8 New Features <b>(12)</b></li>
+							<li> <i>Lynda</i> - First Look-Java 9 (2017) <b>(101)</b></li>
+							<li> <i>Lynda</i> - Learning Java Threads (2016) <b>(101)</b></li>
+							<li> <i>Lynda</i> - Java Data Structures (2017) <b>(101)</b></li>
+							<li> <i>Lynda</i> - Java Generic Classes (2017) <b>(101)</b></li>
+							<li> <i>Lynda</i> - Java Recursion (2017) <b>(90)</b></li>
+							<li> <i>Lynda</i> - Learning Java Lambda Expressions (2016) <b>(101)</b></li>
+							<li> <i>Lynda</i> - Introduction to Java Enterprise Edition (2016) <b>(75)</b></li>
+							<li> <i>Lynda</i> - JavaEE - Enterprise Javabeans <b>(12)</b></li>
+							<li> <i>Lynda</i> - JavaEE - Java Servlets and JavaServer Pages <b>(12)</b></li>
+							<li> <i>Lynda</i> - Building Web Services With JavaEE <b>(12)</b></li>
+							<li> <i>Lynda</i> - JSON Processing with Java EE (2017) <b>(101)</b></li>
+							<li> <i>Lynda</i> - WebSocket Programming with Java EE (2017) <b>(101)</b></li>	
+							<li> <i>Lynda</i> - Java Database Integration with JDBC (2012) <b>(05)</b></li>
+							<li> <i>Lynda</i> - Learning JDBC (2019) <b>(EHD)</b></li>
+							<li> <i>Lynda</i> - Learn Java with Swing (2017) <b>(101)</b></li> 
+							<li> <i>Lynda</i> - JavaFX GUI Development (2016) <b>(44)</b></li>
+							<li> <i>Lynda</i> - Create Interfaces with FXML and JavaFX (2016) <b>(101)</b></li>
+							<li> <i>Lynda</i> - 3D Graphics in JavaFX (2017) <b>(101)</b></li>
+							<li> <i>Lynda</i> - XML Intergration With Java <b>(12)</b></li>
+							<li> <i>Lynda</i> - Java Testing with JUnit (2016) <b>(101)</b></li>    
+							<li> <i>Lynda</i> - Java Build Automation with Maven (2016) <b>(37)</b></li>
+							<li> <i>Lynda</i> - Multi Module Build Automation with Maven (2016) <b>(101)</b></li>
+							<li> <i>Lynda</i> - Code Clinic Java <b>(10)</b></li>
+							<li> <i>Lynda</i> - Nail Your Java Interview (2018) <b>(EHD)</b></li>
+							<li> <i>Packt</i> - Getting Starte	d with Java Deep Learning (2017) <b>(90)</b></li>
+							<li> <i>Udemy</i> - The Complete Java 8 Developer Course <b>(82)/(83)/(84)/(85)/(86)</b></li>
+							<li> <i>Udemy</i> - Complete Java Masterclass - Java11 (2018) <b>(EHD)</b></li>
+							<li> <i>Udemy</i> - Java Database Connection: JDBC and MySQL <b>(48)</b></li>
+							<li> <i>Udemy</i> - Crash Course into JavaFX <b>(48)</b></li>
+							<li> <i>Udemy</i> - Java Multithreading <b>(48)</b></li>
+							<li> <i>Udemy</i> - JUnit Tutorial for Beginners <b>(49)</b></li>
+							<li class="finished"> <i>Bucky's</i> - Beginner Java Tutorial <b>(03)</b></li>
+							<li> <i>Bucky's</i> - Intermediate Java Tutorial <b>(03)</b></li>
+							<li> <i>Bucky's</i> - Game Development With Java <b>(03)</b></li>
+							<li> <i>Bucky's</i> - JavaFX Java GUI Tutorial <b>(24)</b></li>
+							<li> <i>Coursera</i> - Java Programming and Software Engineering Fundamentals Specialization <span>(Duke 2020) </span><b>(EHD)</b></li>
+							  <span class="crr">i. Programming Foundations with JavaScript, HTML and CSS </span><br>
+							  <span class="crr">ii. Java Programming- Solving Problems with Software <b>(42)</b></span><br>
+							  <span class="crr">iii. Java Programming- Arrays.List,Structures Data <b>(42)</b></span><br>
+							  <span class="crr">iv. Java Programming- Principles of Software Designing <b>(43)</b></span><br>
+							  <span class="crr">v. Java Programming- Build a Recommendation System </span><br>
+							<li> <i>Coursera</i> - Object Oriented Java Programming: Data Structures and Beyond Specialization <span>(UCSD 2020) </span><b>(EHD)</b></li>
+							  <span class="crr">i. Object Oriented Programming With Java <b>(43)</b></span><br>
+							  <span class="crr">ii. Data Structures- Measuring & Optimizing Performance <b>(43)</b></span><br>
+							  <span class="crr">iii. Advanced Data Structures in Java <b>(40)</b></span><br>
+							  <span class="crr">iv. Mastering the Software Engineering Interviews <b>(40)</b></span><br>
+							  <span class="crr">v. Capstone- Analyzing (Social) Network Data </b></span><br>
+							<li> <i>Pluralsight</i> - Functional Programming With Java (2014) <b>(90)</b></li>
+							<li> <i>Pluralsight</i> - Java Swing Development Using Netbeans (2014) <b>(90)</b></li>
+							<li> <i>Pluralsight</i> - Advanced Java Concurrent Patterns (2017) <b>(EHD)</b></li>
+							<li> <i>Pluralsight</i> - Understanding the Java Virtual Machine -Memory Management (2015) <b>(EHD)</b></li>
+							<li> <i>InfiniteSkills</i> - Beginner Java Tutorial  <b>(06)</b></li>
+							<li> <i>InfiniteSkills</i> - Intermediate Java Tutorial  <b>(06)</b></li>
+							<li> <i>InfiniteSkills</i> - Advanced Java Tutorial  <b>(06)</b></li>
+							<li> <i>InfiniteSkills</i> - Learning JavaEE <b>(03)</b></li>
+							<li>JavaFX Tutorials for Beginners <b>(38)</b></li>
+						</ol>
+					<h3 id="py">Python </h3>
+						<ol>
+							<li><i>Lynda</i> - Python 3 Essential Training <b>(04)</b></li>
+							<li><i>Lynda</i> - Design Patterns with Python (2015) <b>(113)</b></li>               
+							<li><i>Lynda</i> - Learning Python Generators (2016) <b>(100)</b></li>
+							<li><i>Lynda</i> - Python Programming Efficiently (2017) <b>(100)</b></li>
+							<li><i>Lynda</i> - Learning the Python 3 Standard Library (2017) <b>(100)</b></li>
+							<li><i>Lynda</i> - Migrating from Python 2.7 to Python 3 (2017) <b>(100)</b></li>
+							<li><i>Lynda</i> - Python GUI Development with Tkinter (2014) <b>(100)</b></li>
+							<li><i>Lynda</i> - OpenCV for Python Developers (2017) <b>(89)</b></li>
+							<li><i>Lynda</i> - Processing Text with Python Essential Training (2019) <b>(EHD)</b></li> 
+							<li><i>Lynda</i> - Visual Studio Code for Python Developers (2019) <b>(EHD)</b></li> 
+							<li><i>Lynda</i> - Code Clinic Python <b>(13)</b></li> 
+							<li><i>Packt</i> - Python Projects (2017) <b>(100)</b></li>
+							<li><i>Udemy</i> - Automate the Boring Stuff with Python Programming (2017) <b>(EHD)</b></li>
+							<li><i>Udemy</i> - Python Network Programming – Build 7 Python Apps (2018) <b>(EHD)</b></li>
+							<li><i>Udemy</i> - The Python Mega Course - Build 10 Real World Applications (2019) <b>(EHD)</b></li>
+							<li><i>Bucky's</i> - Python Essential Training <b>(04)</b></li>
+							<li><i>Bucky's</i> - Python GUI With Tkinter <b>(25)</b></li>
+							<li><i>Bucky's</i> - Python 3.4 Programming Tutorial <b>(60)</b></li>
+							<li><i>Bucky's</i> - Python Reverse Shell Tutorial <b>(44)</b></li>
+							<li><i>Coursera</i> - Python for Everybody Specialization <span>(Michigan University 2020) </span><b>(EHD)</b></li>
+							  <span class="crr">i. Programming for Everybody Getting Started with Python <b>(41)</b></span><br>
+							  <span class="crr">ii. Python Data Structures <b>(41)</b></span><br>
+							  <span class="crr">iii. Using Python to Access Web Data <b>(41)</b></span><br>
+							  <span class="crr">iv. Using Database With Python <b>(41)</b></span><br>
+							  <span class="crr">v. Capstone- Retrieving, Processing, and Visualizing Data with Python </span><br>
+							<li><i>Coursera</i> - Fundamentals of Computing Specialization <span>(Rice University 2015)</span></li>
+						      <span class="crr">i. Intro to Interactive Programming in Python I <b>(40)</b></span><br>
+						      <span class="crr">ii. Intro to Interactive Programming in Python II <b>(40)</b></span><br>
+						      <span class="crr">iii. Principles of Computing I <b>(40)</b></span><br>
+						      <span class="crr">iv. Principles of Computing II <b>(40)</b></span><br>
+						      <span class="crr">v. Algorithmic Thinking I <b>(40)</b></span><br>
+						      <span class="crr">vi. Algorithmic Thinking II <b>(40)</b></span>  
+							<li><i>Coursera</i> - Google IT Automation with Python <span>(Google 2020) </span><b>(EHD)</b></li>
+							  <span class="crr">i. Crash Course on Python </span><br>
+							  <span class="crr">ii. Using Python to Interact with the Operating System </span><br>
+							  <span class="crr">iii. Introduction to Git and GitHub </span><br>
+							  <span class="crr">iv. Troubleshooting and Debugging Techniques </span><br>
+							  <span class="crr">v. Configuration Management and the Cloud </span><br>  
+							  <span class="crr">vi. Automating Real-World Tasks with Python </span><br>  
+							<li><i>Pluralsight</i> - Python Desktop Application Development (2014) <b>(90)</b></li> 
+							<li><i>CBT Nugetts</i> - Python Tutorial <b>(04)</b></li>
+							<li><i>InfiniteSkills</i> - Learning Python <b>(11)</b></li>
+						</ol>
+					<h3 id="go">Go </h3>
+						<ol>
+							<li><i>Lynda</i> - Up and Running With Go (2015) <b>(75)</b></li>
+							<li><i>Lynda</i> - Code Clinic Go (2016) <b>(88)</b></li>
+							<li><i>Packt</i> - Go for Web Development <b>(83)</b></li>
+							<li><i>Udemy</i> - Learn How to Code: Google's Go Programming Language <b>(72)/(73)</b></li>
+						</ol>
+					<h3 id="sw">Swift/ Objctive C</h3>
+						<ol>
+							<li><i>Lynda</i> - Objective-C Essential Training <b>(11)</b></li>
+							<li><i>Lynda</i> - Swift 1.0 Essential Training <b>(44)</b></li>
+							<li><i>Lynda</i> - Swift 3 Essential Training (2016) <b>(82)</b></li>
+							<li><i>Lynda</i> - Cocoa with Swift 3 Essential Training (2016) <b>(82)</b></li>
+						</ol>
+					<h3 id="rb">Ruby</h3>
+						<ol>
+							<li><i>Lynda</i> - Ruby Essential Training <b>(13)</b></li>
+							<li><i>Lynda</i> - Ruby on Rails 4 Training <b>(11)</b></li>
+						</ol>
+					<h3 id="xml">XML </h3>
+						<ol>
+                            <li><i>Lynda</i> - XML Essential Training <b>(10)</b></li>
+                            <li><i>Lynda</i> - Real World XML <b>(14)</b></li>
+                    	</ol> 
+					<h3 id="regx">Regular Expressions</h3>
+						<ol>
+							<li><i>Lynda</i> - Using Regular Expression (2016) <b>(24)</b></li>
+							<li><i>Udemy</i> - Complete Regular Expressions Bootcamp (2018) <b>(117)</b></li>
+							<li><i>InfiniteSkills</i> - Learning Regular Expression <b>(29)</b></li>
+						</ol>
+					<h3 id="other">Other Languages </h3>
+						<ol>
+							<li><i>Lynda</i> - Visual Basic Essential Training <b>(13)</b></li>  
+							<li><i>Lynda</i> - Perl 5 Essential Training (2010) <b>(29)</b></li>
+							<li><i>Lynda</i> - Up and Running with MATLAB <b>(38)</b></li>
+							<li><i>Lynda</i> - CGI Essential Training (2010) <b>(112)</b></li>
+							<li><i>Udemy</i> - The Rust Programming Language (2019) <b>(EHD)</b></li>
+							<li><i>Bucky's</i> - R Programming Tutorial <b>(53)</b></li>
+							<li><i>Coursera</i> - Introduction to Programming with MATLAB <span>(Vanderbilt University)</span> <b>(43)</b></li>
+							<li><i>InfiniteSkills</i> - Learning To Program With R (2014) <b>(73)</b></li>  
+						</ol>
+                <h2 id="dsa">Data Structures & Algorithms&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h2>  
+                    <ol>
+						<li><i>MIT</i> - Introduction to Algorithms <span>(6-046j-fall | 2005) <b>(19)</b></span></li>
+						<li><i>Lynda</i> - Foundation of Programming- Data Structures <b>(19)</b></li>
+						<li><i>Lynda</i> - Programming Foundations -Data Structures (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Programming Foundations -Algorithms (2018) <b>(EHD)</b></li>
+						<li><i>Udemy</i> - JavaScript Algorithms and Data Structures Masterclass (2018) <b>(EHD)</b></li>
+						<li><i>Udemy</i> - Master the Coding Interview - Data Structures+Algorithms (2019) <b>(EHD)</b></li>
+						<li><i>Udemy</i> - The Coding Interview Bootcamp - Algorithms+Data Structures (2018) <b>(EHD)</b></li>
+						<li><i>O'Reilly</i> - Data Structures and Algorithms <b>(93)</b></li>
+						<li><i>Coursera</i> - Algorithms Specialization <span>(Princeton University 2020)</span><b> (EHD)</b></li>
+							<span class="crr">i. Algorithms Part I <b>(20)</b></span><br>
+							<span class="crr">ii. Algorithms Part II <b>(20)</b></span><br>
+						<li><i>Coursera</i> - Data Structures and Algorithms Specialization <span>(UCSD 2020) </span><b>(EHD)</b></li>
+							<span class="crr">i. Algorithmic ToolBox <b>(39)</b></span><br>
+							<span class="crr">ii. Data Structures <b>(39)</b></span><br>
+							<span class="crr">iii. Algorithm on Graphs <b>(41)</b></span><br>
+							<span class="crr">iv. Algorithm on Strings <b>(51)</b></span><br>
+							<span class="crr">v. Advanced Algorithmic Complexity <b>(37)</b></span><br>
+							<span class="crr">iv. Genome Assembly Programming Challenge </b></span><br>
+						<li><i>Coursera</i> - Algorithms Specialization <span>(Stanford University 2020) </span><b>(32/EHD)</b></li>
+						    <span class="crr">i. Divide and Conquer, Sorting and Searching, and Randomized Algorithms </span><br>
+						    <span class="crr">ii. Graph Search, Shortest Paths, and Data Structures </span><br>
+						    <span class="crr">iii. Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming </span><br>
+						    <span class="crr">iv. Shortest Paths Revisited, NP-Complete Problems and What To Do About Them </span><br>
+						<li><i>Coursera</i> - Analysis of Algorithms <span>(Princeton University 2014)</span> <b>(39)</b></li>
+						<li><i>Indian Institute</i> - Data Structures and Algorithms Tutorial <b>(07)</b></li>
+					</ol>    
+                <h2 id="dp">Design Patterns&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h2>
+                	<ol>
+                        <li><i>Lynda</i> - Foundations of Programming: Design Patterns (2013) <b>(68)</b></li>
+                        <li><i>Lynda</i> - Agile Instructional Design <b>(38)</b></li>
+                        <li><i>Lynda</i> - S.O.L.I.D. Programming Principles <b>(53)</b></li> 
+                        <li><i>Lynda</i> - Foundations of Programming- Refactoring Code (2013) <b>(109)</b></li>
+                        <li><i>Lynda</i> - Software Design -Code and Design Smells (2019) <b>(EHD)</b></li>
+                        <li><i>Lynda</i> - Design Patterns- Creational (2020) <b>(EHD)</b></li>
+                        <li><i>Lynda</i> - Advanced Design Patterns- Design Principles (2020) <b>(EHD)</b></li>
+                        <li><i>Lynda</i> - UX Design for Developers (2019) <b>(EHD)</b></li>
+						<li><i>Pluralsight</i> - Introduction to UML (2013) <b>(92)</b></li>
+                	</ol>	
+				<h2 id="tqa">Testing & Quality Assurance&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h2>
+					<ol>
+                        <li><i>Lynda</i> - Programming Foundations -Test-Driven Development (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Foundations of Programming- Test-Driven Development (2013) <b>(109)</b></li>
+                        <li><i>Lynda</i> - Foundations of Programming- Software Quality Assurance (2013) <b>(109)</b></li>
+                        <li><i>Lynda</i> - Insights on Software Quality Engineering (2014) <b>(88)</b></li>
+						<li><i>Lynda</i> - Foundations of Programming- Code Efficiency (2013) <b>(109)</b></li>
+						<li><i>Lynda</i> - Performance Testing Foundations (2019)  <b>(EHD)</b></li>
+					    <li><i>Lynda</i> - Foundation of Programming: Open Source Licensing <b>(54)</b></li>
+					</ol>  
+				<h2 id="dm">Database Management&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h2>
+					<ol>
+						<li><i>Lynda</i> - Foundations of Programming-  Databases (2015) <b>(109)</b></li>
+						<li><i>Lynda</i> - SQL Essential Training (2012) <b>(06)</b></li>
+						<li><i>Lynda</i> - SQL Essential Training (2014) <b>(13)</b></li>
+						<li><i>Lynda</i> - MYSQL Essential Training <b>(13)</b></li>
+						<li><i>Lynda</i> - MYSQL Essential Training <b>(EHD)</b></li>
+						<li><i>Lynda</i> - MYSQL Essential Training (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - MySQL Installation and Configuration (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Database Fundamentals- Core Concepts (2015) <b>(88)</b></li>
+						<li><i>Lynda</i> - Database Fundamentals- Creating And Manipulating Data (2015) <b>(88)</b></li>
+						<li><i>Lynda</i> - Database Fundamentals- Storage (2015) <b>(88)</b></li>
+						<li><i>Lynda</i> - Database Foundations- Administration (2015) <b>(117)</b></li>
+						<li><i>Lynda</i> - SQL Server 2014 Developing Databases (2015) <b>(114)</b></li> 
+						<li><i>Lynda</i> - Learn Microsoft SQL Server 2016: The Basics <b>(46)</b></li>
+						<li><i>Lynda</i> - SQL Tips and Tricks for Data Science (2016) <b>(75)</b></li>
+						<li><i>Lynda</i> - Up and Running with NoSql DataBases (2012) <b>(30)</b></li>
+						<li><i>Udemy</i> - The Complete SQL Bootcamp (2017) <b>(68)</b></li>
+						<li><i>Udemy</i> - SQL1- SQLite for Beginners (2016) <b>(91)</b></li>
+						<li><i>Bucky's</i> - MySQL Video Tutorial <b>(23)</b></li>
+						<li><i>Bucky's</i> - MongoDB Tutorial for Beginners <b>(53)</b></li>
+						<li><i>Coursera</i> - DataBase Management Essential <span>(University of Colorado)</span> <b>(42)</b></li>
+					</ol>
+				<h2 id="ca">Computer Architecture&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h2>
+					<ol>
+						<li><i>Udemy</i> - Operating Systems from scratch - Part 1 (2019) <b>(EHD)</b></li>
+                        <li><i>Coursera</i> - Build a Modern Computer from First Principles -From Nand to Tetris I <span>(Hebrew Uni:Jerusalem 2020)</span> <b> (EHD)</b></li>
+                        <li><i>Coursera</i> - Build a Modern Computer from First Principles -Nand to Tetris II <span>(Hebrew Uni:Jerusalem 2020)</span> <b> (EHD)</b></li>
+                        <li><i>Coursera</i> - Computer Architecture <span>(Princeton University 2013)</span> <b>(57)</b></li>
+                        <li><i>Coursera</i> - Compilers <span>(Stanford University 2016)</span> <b>(41)</b></li>
+                        <li><i>Coursera</i> - The Hardware, Software Interface <span>(University of Washington 2016)</span><b> (26)</b></li>
+  			    	</ol>
+				<h2 id="dt">Development Tools&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h2>
+					<h3 id="tei">Text Editors & IDEs</h3>
+						<ol>
+							<li><i>Lynda</i> - Up and Running with Eclipse <b>(26)</b></li>  
+							<li><i>Lynda</i> - Eclipse Essential Training (2015) <b>(33)</b></li>
+							<li><i>Lynda</i> - Up and Running with Aptana Studio 3 <b>(26)</b></li>
+							<li class="finished"><i>Lynda</i> - Up and Running with SublimeText 2 <b>(24)</b></li>
+							<li><i>Lynda</i> - Learning Sublime Text 3 (2016) <b>(98)</b></li>
+							<li class="finished"><i>Lynda</i> - Notepad++ for Developers (2016) <b>(30)</b></li>
+							<li><i>Lynda</i> - Coding Faster with Emmet (2013) <b>(108)</b></li>
+							<li><i>Lynda</i> - Up and Running with Nano (2015) <b>(98)</b></li>
+							<li><i>Lynda</i> - Learning Vim (2018) <b>(EHD)</b></li>
+							<li><i>Lynda</i> - Learn Atom: The Basics (2016) <b>(75)</b></li>
+							<li><i>Lynda</i> - Learning Visual Studio Code (2017) <b>(98)</b></li>
+							<li><i>Lynda</i> - Visual Studio Code for Web Developers (2017) <b>(98)</b></li>
+							<li><i>Lynda</i> - Visual Studio Code Productivity Tips (2019) <b>(EHD)</b></li>
+							<li><i>Lynda</i> - XCode 7 Essential Training <b>(37)</b></li>
+							<li><i>Lynda</i> - IntelliJ IDEA Community Edition Essential Training (2017) <b>(98)</b></li>
+							<li><i>Lynda</i> - VS 2015 Essential Training 00-Setup and Configuration (2017) <b>(98)</b></li>
+							<li><i>Lynda</i> - VS 2015 Essential Training 01: Exploring the Visual Studio Ecosystem (2015) <b>(113)</b></li>
+							<li><i>Lynda</i> - VS 2015 Essential Training 02: Getting Comfortable with the IDE (2015) <b>(113)</b></li>
+							<li><i>Lynda</i> - VS 2015 Essential Training 03: Exploring Projects and Solutions (2015) <b>(113)</b></li>
+							<li><i>Lynda</i> - VS 2015 Essential Training 04-Surveying the Programming Languages (2017) <b>(98)</b></li>
+							<li><i>Lynda</i> - VS 2015 Essential Training 05: Code Editors (2015) <b>(64)</b></li>
+							<li><i>Lynda</i> - VS 2015 Essential Training 06: Debug and Troubleshoot Code (2016) <b>(113)</b></li>
+							<li><i>Lynda</i> - VS 2015 Essential Training 07: Understanding Project Types (2016) <b>(113)</b></li>
+							<li><i>Lynda</i> - VS 2015 Essential Training 08: Extend and Customize the VS Environment(2016) <b>(64)</b></li>
+							<li><i>Lynda</i> - VS 2015 Essential Training-09 Unit Tests (2016) <b>(98)</b></li>
+							<li><i>Lynda</i> - VS 2015 Essential Training 10: Protecting Your Codebase With Source Control Providers (2016) <b>(64)</b></li>
+							<li><i>Lynda</i> - VS 2015 Essential Training 11: Data Tools (2016) <b>(64)</b></li>
+							<li><i>Lynda</i> - Visual Studio Team Services: The Basic (2016) <b>(48)</b></li>
+							<li><i>Lynda</i> - Visual Studio 2012 Essential Training <b>(08)</b></li>
+							<li class="finished"><i>YouTube</i> - Notepad++ Tutorials <b>(30)</b></li>
+						</ol>
+					<h3 id="plt">Platforms</h3>
+						<ol>
+							<li><i>Lynda</i> - Fundamentals of Software Version Control (2012) <b>(109)</b></li>
+							<li><i>Lynda</i> - Version Control for Everyone (2020)  <b>(EHD)</b></li>  
+							<li><i>Lynda</i> - Git Essential Training <b>(22)</b></li>  
+							<li><i>Lynda</i> - Up and Running with Git and GitHub <b>(21)</b></li>  
+							<li><i>Lynda</i> - DevOps Foundations (2016) <b>(EHD)</b></li>  
+							<li><i>Lynda</i> - Learning Docker (2018) <b>(EHD)</b></li>  
+							<li><i>Lynda</i> - Electron Building Cross Platform Desktop Apps (2019) <b>(EHD)</b></li>  
+							<li><i>Lynda</i> - Learning Vagrant (2018) <b>(EHD)</b></li>  
+							<li><i>Packt</i> - Mastering Git (2014) <b>(91)</b></li>  
+							<li><i>Bucky's</i> - Git Tutorial <b>(24)</b></li>
+						</ol>   
+              
+			<h1 id="it">INFORMATION TECHNOLOGY&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h1>
+				
+				<h2 id="itcp" >Career Paths&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h2>
+					<ol>
+						<li><i>Lynda</i> - Plan Your Next Play in IT (2016) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - IT Service Desk Careers and Certifications First Steps (2017) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Microsoft Certifications Exams, Paths, Certifications, and Resources (2018) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Cloud Computing Career Paths and Certifications First Steps (2017) <b>(EHD)</b></li>
+					</ol>
+				<h2 id="nw" >Networking&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h2>
+					<ol>
+						<li><i>Lynda</i> - Foundation of Networking- Basics <b>(29)</b></li> 
+						<li><i>Lynda</i> - Foundation of Networking- Network Media (LANs) <b>(32)</b></li>
+						<li><i>Lynda</i> - Foundation of Networking- Network Media (WANs) <b>(32)</b></li>
+						<li><i>Lynda</i> - Foundation of Networking- Protocols and CLI Tools <b>(32)</b></li>
+						<li><i>Lynda</i> - Foundation of Networking- IP Addressing <b>(32)</b></li>
+						<li><i>Lynda</i> - Learning Networking (2013) <b>(98)</b></li>
+						<li><i>Lynda</i> - Learning the Packet Delivery Process (2014) <b>(120)</b></li>
+						<li><i>Lynda</i> - Learning Network Routing (2014) <b>(120)</b></li>
+						<li><i>Lynda</i> - Learning IP Addressing (2013) <b>(102)</b></li>
+						<li><i>Lynda</i> - Learning IPv6 (2014) <b>(120)</b></li>
+						<li><i>Lynda</i> - Learning Subnetting (2013) <b>(111)</b></li>	
+						<li><i>Lynda</i> - Up and Running with Wireless Networking <b>(28)</b></i></li>
+						<li><i>Lynda</i> - Wireless Networking Essential Training (2020) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Setting Up a Small-Office Network (2014) <b>(91)</b></li>
+						<li><i>Lynda</i> - Learning Network Troubleshooting (2013) <b>(121)</b></li>
+						<li><i>Lynda</i> - Learning Secure Sockets Layer (2014) <b>(97)</b></li>
+						<li><i>Lynda</i> - Troubleshooting Network Connectivity (2016) <b>(119)</b></li>
+						<li><i>Lynda</i> - Troubleshooting Your Network with Wireshark (2016) <b>(97)</b></li>
+						<li><i>Lynda</i> - Understanding FTP (2014) <b>(108)</b></li>
+						<li><i>Lynda</i> - HTTP2 Developing for Performance (2016) <b>(95)</b></li>
+						<li><i>Lynda</i> - Cisco Certifications First Steps (2018) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - CompTIA Network+ (N10-007) Cert Prep- 1 to 9 (2018) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Extending and Optimizing a Wi-Fi Network for Small Businesses (2015) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Learning Nagios (2018) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Managing DNS Essential Training (2016) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Networking Foundations -Servers (2018) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Protecting Your Network with Open-Source Software (2015) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Wireshark VoIP (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Learning Cisco CLI Router Configuration (2015) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Learning Cisco CLI Switch Configuration (2015) <b>(EHD)</b></li>
+						<li><i>Udemy</i> - Introduction to Networking for Complete Beginners <b>(49)</b></li>
+						<li><i>Udemy</i> - Introduction to Computer Networks for Non-Techies (2019) <b>(EHD)</b></li>
+						<li><i>Udemy</i> - CCNP All-in-1 Video Boot Camp With Chris Bryant (2018) <b>(EHD)</b></li>
+						<li><i>Udemy</i> - Certified Wireless Network Administrator (CWNA) (2019) <b>(EHD)</b></li>
+						<li><i>Udemy</i> - The Complete Networking Fundamentals Course-Your CCNA start (2019) <b>(EHD)</b></li>
+						<li><i>Udemy</i> - Introduction To Fiber Optic Cabling (2014) <b>(EHD)</b></li>
+						<li><i>Bucky's</i> - Computer Networking Tutorials <b>(24)</b></i></li>
+						<li><i>Coursera</i> - Cisco Networking Basics Specialization <span>(Cisco 2020) </span><b>(EHD)</b></li>
+							<span class="crr">i. Internet Connection How to Get Online </span><br>
+							<span class="crr">ii. Network Protocols and Architecture </span><br>
+							<span class="crr">iii. Data Communications and Network Services </span><br>
+							<span class="crr">iv. Home Networking Basics </span><br>
+							<span class="crr">v. Introduction to Cisco Networking </span><br>
+						<li><i>Coursera</i> - Computer Networking <span>(University of Washington 2013)</span> <b>(33)</b></i>
+						<li><i>Treehouse</i> - How the Internet Works (2015) <b>(EHD)</b></i></li>
+						<li><i>Treehouse</i> - How the Web Works (2015) <b>(EHD)</b></i></li>
+						<li><i>Networking Inc</i> - 200-125 CCNA V.3 Video Training (2018) <b>(119)</b></li>
+						<li><i>Eli the Computer Guy</i> - Networking (2009) <b>(118)/(119)</b></li>
+					</ol>
+				<h2 id="hs" >Hacking & Security&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h2>
+					<ol>
+						<li><i>Lynda</i> - Introduction to Ethical Hacking (2016) <b>(57)</b></li>
+						<li><i>Lynda</i> - Ethical Hacking: Danial of Service (2016) <b>(41)</b></li>
+						<li><i>Lynda</i> - Ethical Hacking -Enumeration (2016) <b>(111)</b></li>
+						<li><i>Lynda</i> - Ethical Hacking -Exploits (2017) <b>(111)</b></li>
+						<li><i>Lynda</i> - Ethical Hacking -Footprinting and Reconnaissance (2016) <b>(111)</b></li>
+						<li><i>Lynda</i> - Ethical Hacking -Mobile Devices and Platforms (2016) <b>(111)</b></li>
+						<li><i>Lynda</i> - Ethical Hacking -Session Hijacking (2016) <b>(111)</b></li>
+						<li><i>Lynda</i> - Ethical Hacking -Sniffers (2016) <b>(111)</b></li>
+						<li><i>Lynda</i> - Ethical Hacking -Social Engineering (2016) <b>(111)</b></li>
+						<li><i>Lynda</i> - Ethical Hacking -Viruses and Worms (2016) <b>(111)</b></li>
+						<li><i>Lynda</i> - Ethical Hacking -Penetration Testing (2016) <b>(110)</b></li>  
+						<li><i>Lynda</i> - Ethical Hacking -System Hacking (2016) <b>(110)</b></li>
+						<li><i>Lynda</i> - Ethical Hacking -Trojans and Backdoors (2016) <b>(110)</b></li>
+						<li><i>Lynda</i> - Ethical Hacking -Website and Web Application Testing (2016) <b>(110)</b></li>
+						<li><i>Lynda</i> - Ethical Hacking -Hacking Web Servers and Web Applications (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Ethical Hacking -Wireless Networks (2016) <b>(110)</b></li>
+						<li><i>Lynda</i> - Ethical Hacking -Perimeter Defenses (2017) <b>(91)</b></li>
+						<li><i>Lynda</i> - Ethical Hacking -Hacking IoT Devices (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Ethical Hacking -Scanning Networks (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Ethical Hacking -The Complete Malware Analysis Process (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Ethical Hacking -Vulnerability Analysis (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Ethical Hacking- Evading IDS, Firewalls, and Honeypots (2019)  <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Penetration Testing Essential Training (2017) <b>(110)</b></li>
+						<li><i>Lynda</i> - Foundations of IT Security- Core Concepts (2015) <b>(91)</b></li>
+						<li><i>Lynda</i> - Foundation of IT Security - Network Security <b>(29)</b></li>
+						<li><i>Lynda</i> - IT Security Foundations- Operating System Security (2015) <b>(91)</b></li>
+						<li><i>Lynda</i> - Foundation of Programming- Web Security <b>(18)</b></li>
+						<li><i>Lynda</i> - Computer Security- Investigation and Response (2015) <b>(108)</b></li>
+						<li><i>Lynda</i> - Foundations of Cybersecurity (2015) <b>(91)</b></li>
+						<li><i>Lynda</i> - Learning Device Security (2014) <b>(121)</b></li>
+						<li><i>Lynda</i> - Securing Windows 10 (2016) <b>(40)</b></li>
+						<li><i>Lynda</i> - Understanding SSH (2014) <b>(108)</b></li>
+						<li><i>Lynda</i> - Browsing the Web Securely (2017) <b>(100)</b></li> 
+						<li><i>Lynda</i> - Learning Mobile Device Security (2015) <b>(97)</b></li>
+						<li><i>Lynda</i> - Learning Computer Forensics (2014) <b>(114)</b></li>
+						<li><i>Lynda</i> - CCNA Security (210-260) Cert Prep -3 VPN (2017) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Firewall Administration Essential Training (2017) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Firewall Administration Essential Training (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Learning Cyber Incident Response and Digital Forensics (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Learning Mobile Device Security (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Operating System Forensics (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Transitioning to a Career in Cybersecurity (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Web Security -User Authentication and Access Control (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - CISM Cert Prep- The Basics (2019) <b>(EHD)</b></li>
+						<li><i>Packt</i> - Learning Python Web Penetration Testing (2016) <b>(100)</b></li>
+						<li><i>Udemy</i> - The Complete Ethical Hacking Course: Beginners to Advanced <b>(27)/(28)</b></li>
+						<li><i>Udemy</i> - Start KaliLinux: Ethical Hacking and Penetration Testing <b>(28)</b></li>
+						<li><i>Udemy</i> - Learn Wi-Fi Key Penetration Testing <b>(43)</b></li>
+						<li><i>Udemy</i> - Web Site Hacking in Practice <b>(55)</b></li>
+						<li><i>Udemy</i> - Learn the Basics of BlackHat Hacking Secrets in Ethical Way <b>(55)</b></li>
+						<li><i>Udemy</i> - Cyber Security <b>(30)</b></li>
+						<li><i>Udemy</i> - Deep Web 101- An Introduction into the Deep Web (2017) <b>(91)</b></li>
+						<li><i>Udemy</i> - Hacking in Practice - Certified Ethical Hacking MEGA Course (2019) <b>(EHD)</b></li>
+						<li><i>Udemy</i> - Learn Ethical Hacking From Scratch (2019) <b>(EHD)</b></li>
+						<li><i>Udemy</i> - Learn Website Hacking, Penetration Testing From Scratch (2019) <b>(EHD)</b></li>
+						<li><i>Udemy</i> - Network Hacking Continued - Intermediate to Advanced (2019) <b>(EHD)</b></li>
+						<li><i>Udemy</i> - Security Manage Network Security With pfSense Firewall (2018) <b>(EHD)</b></li>
+						<li><i>Udemy</i> - The Complete Cyber Security Course 1 - Hackers Exposed (2017) <b>(62,63,64 | EHD)</b></li>
+						<li><i>Udemy</i> - The Complete Cyber Security Course 2 - Network Security (2017) <b>(65 | EHD)</b></li>
+						<li><i>Udemy</i> - The Complete Cyber Security Course 3 - Anonymous Browsing (2017) <b>(66 | EHD)</b></li>
+						<li><i>Udemy</i> - The Complete Cyber Security Course 4 - End Point Protection (2017) <b>(67 | EHD)</b></li>
+						<li><i>Udemy</i> - The Complete Deep Web Course (2018) <b>(EHD)</b></li>
+						<li><i>Bucky's</i> - Metasploit for Network Security <b>(33)</b></li>
+						<li><i>Bucky's</i> - Wi-Fi Wireless Security <b>(51)</b></li>
+						<li><i>YouTube</i> - Complete Free Hacking: Beginners to Advanced <b>(28)</b></li>
+						<li><i>Coursera</i> - Cryptography <span>(University of Maryland 2016)</span> <b>(50)</b></li>
+						<li><i>Coursera</i> - Software Security <span>(University of Maryland 2016)</span> <b>(43)</b></li>
+						<li><i>Pluralsight</i> - Cybersecurity Threats: Ransomware (2017) <b>(89)</b></li>
+						<li><i>CBT Nuggets</i> - CompTIA Security+ (SY0-501) (2017) <b>(EHD)</b></li>
+						<li><i>HackingSchool</i> - Computer and Network Hacking Mastery Practical Techniques <b>(38)</b></li>
+						<li><i>CHB Tutorials</i> - How to Hack WPA 2 Wi-Fi Network <b>(65)</b></li>
+						<li><i>InfiniteSkills</i> - Learning WhiteHat Hacking and Penetration Testing <b>(29)</b></li>
+						<li><i>InfiniteSkills</i> - Advanced WhiteHat Hacking and Penetration Testing <b>(29)</b></li>
+					</ol>
+				<h2 id="os" >Operating Systems&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h2>
+					<h3 id="win" >Windows </h3>
+                    <ol>
+                        <li><i>Lynda</i> - Windows 10 New Features <b>(52)</b></li>
+                        <li><i>Lynda</i> - Windows 10 Creators Update New Features (2017) <b>(89)</b></li>
+						<li><i>Lynda</i> - Windows 10 Creators Update Essential Trainning (2017) <b>(89)</b></li>
+						<li><i>Lynda</i> - Windows 10 Anniversary Update New Features (2016) <b>(89)</b></li>
+						<li><i>Lynda</i> - Windows 10 May 2019 Update Essential Training (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Windows 10 May 2019 Update New Features (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Windows 10 November 2019 Update New Features (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Windows 10 - Administration (2018) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Windows 10 - Manage Updates and Recovery (2016) <b>(117)</b></li>
+						<li><i>Lynda</i> - Windows 10 - Networking (2018) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Windows 10 - Implementation (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Windows 10 - Manage and Maintain Windows 10 (2018) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Windows 10 - Configure and Support Core Services (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Windows 10 - Security (2018) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Windows 10 - Configure Storage (2016) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Windows 10 - Manage Remote Access (2016) <b>(121)</b></li>
+						<li><i>Lynda</i> - Windows 10 - Plan Desktop and Device Deployment (2017) <b>(115)</b></li>
+						<li><i>Lynda</i> - Windows 10 - Manage Apps (2016) <b>(115)</b></li>
+						<li><i>Lynda</i> - Windows 10 - Networking Fundamentals (2016) <b>(45)</b></li>        
+						<li><i>Lynda</i> - Windows 10 - Deploy and Manage Virtual Applications (2017) <b>(117)</b></li>
+						<li><i>Lynda</i> - Windows 10 - Manage Identity (2016) <b>(115)</b></li>
+						<li><i>Lynda</i> - Windows 10 - Intune Device Management (2016) <b>(117)</b></li>
+						<li><i>Lynda</i> - Windows 10 - Plan and Implement Software Updates (2017) <b>(121)</b></li>
+						<li><i>Lynda</i> - Windows 10 - Provision and Manage Mobile Devices (2017) <b>(121)</b></li>
+						<li><i>Lynda</i> - Windows 10 - Configure, Secure, and Manage Data (2016) <b>(115)</b></li>
+						<li><i>Lynda</i> - Windows 10- Troubleshooting for IT Support (2018) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Windows 10- Advanced Troubleshooting for IT Support (2018) <b>(EHD)</b></li>
+                        <li><i>Lynda</i> - Speeding up Your Home PC <b>(44)</b></li>
+						<li><i>Lynda</i> - Troubleshooting Common PC Issues for Users (2016) <b>(119)</b></li>
+						<li><i>Lynda</i> - Building Your Technology Skills (2016) <b>(99)</b></li>
+                        <li><i>Lynda</i> - Up And Running With The Powershell Integrated Scripting Environment (2015) <b>(92)</b></li>
+						<li><i>Lynda</i> - Migrating to Windows 10 for Small Businesses (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Windows Server 2012 -Installation and Configuration (2014) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Windows Server 2019 Essential Training (2018) <b>(EHD)</b></li>
+						<li><i>Udemy</i> - Microsoft Windows Server 2016 Training for Beginners (2017) <b>(EHD)</b></li>
+						<li><i>Udemy</i> - Microsoft Windows Server 2012 Certification Exam 70-410 (2014) <b>(EHD)</b></li>
+                        <li><i>Bucky's</i> - Windows Command Line Tutorial <b>(61)</b></li>
+                        <li><i>Pluralsight</i> - Windows Registry Troubleshooting (2017) <b>(92)</b></li> 
+						<li><i>InfiniteSkills</i> - Learning Windows PowerShell (2014) <b>(117)</b></li>
+                    </ol>
+                <h3 id="lnx" >Linux </h3>
+                    <ol>
+                        <li><i>Lynda</i> - Learning VirtualBox (2017) <b>(110)</b></li>
+						<li><i>Lynda</i> - Linux -Files and Permissions (2017) <b>(97)</b></li> 
+						<li><i>Lynda</i> - Linux -Multitasking at the Command Line (2016) <b>(97)</b></li> 
+						<li><i>Lynda</i> - Linux -Overview and Installation (2016) <b>(97)</b></li> 
+						<li><i>Lynda</i> - Linux -Package Managers and Repositories (2017) <b>(97)</b></li> 
+						<li><i>Lynda</i> - Linux -Shells and Processes (2017) <b>(97)</b></li> 
+						<li><i>Lynda</i> - Linux -Storage Systems (2016) <b>(97)</b></li> 
+						<li><i>Lynda</i> - Linux -System Information and Directory Structure Tools (2017) <b>(97)</b></li> 
+						<li><i>Lynda</i> - Linux -System Maintenance (2017) <b>(97)</b></li> 
+						<li><i>Lynda</i> - Linux -BIND and DNS (2016) <b>(96)</b></li> 
+						<li><i>Lynda</i> - Linux -Desktops and Remote Access (2016) <b>(96)</b></li> 
+						<li><i>Lynda</i> - Linux -File Sharing Services (2017) <b>(96)</b></li> 
+						<li><i>Lynda</i> - Linux -Kernels and Logging for System Administration (2017) <b>(96)</b></li> 
+						<li><i>Lynda</i> - Linux -Package Management for CentOS (2017) <b>(96)</b></li> 
+						<li><i>Lynda</i> - Linux -User and Group Management (2017) <b>(96)</b></li> 
+						<li><i>Lynda</i> - Linux -Web Services (2016) <b>(96)</b></li> 
+                        <li><i>Lynda</i> - Linux -Network Configuration (2016) <b>(113)</b></li>
+                        <li><i>Lynda</i> - Linux -Email Services (2017) <b>(113)</b></li>
+						<li><i>Lynda</i> - LFCS -Essential Commands (Ubuntu) (2017) <b>(99)</b></li> 
+						<li><i>Lynda</i> - LFCS -Operation of Running Systems (Ubuntu) (2017) <b>(99)</b></li> 
+						<li><i>Lynda</i> - LFCS -Storage Management (Ubuntu) (2017) <b>(99)</b></li> 
+						<li><i>Lynda</i> - LFCS -User and Group Management (Ubuntu) (2017) <b>(99)</b></li> 
+						<li><i>Lynda</i> - LFCS -Virtualization (Ubuntu) (2017) <b>(99)</b></li>     
+                        <li><i>Lynda</i> - Linux Foundation Cert Prep- Email Services (Ubuntu) (2018) <b>(EHD)</b></li>
+                        <li><i>Lynda</i> - Linux Foundation Cert Prep- Networking (Ubuntu) (2018) <b>(EHD)</b></li>
+                        <li><i>Lynda</i> - Linux Foundation Cert Prep- Service Configuration (Ubuntu)(2018) <b>(EHD)</b></li>
+                        <li><i>Lynda</i> - Linux Foundation Cert Prep -Network Filesystems and File Services (Ubuntu) (2018) <b>(EHD)</b></li>
+                        <li><i>Lynda</i> - Linux Foundation Cert Prep -Remote Access (Ubuntu) (2018) <b>(EHD)</b></li>
+                        <li><i>Lynda</i> - Linux System Engineer- Advanced Disk Systems and System Backup (2019) <b>(EHD)</b></li>
+                        <li><i>Lynda</i> - Linux System Engineer- Kernel Tuning and Remote Logging (2018) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Linux Kernel Fundamentals <b>(54)</b></li>
+						<li><i>Lynda</i> - Advanced Linux The Linux Kernel (2016) <b>(120)</b></li> 
+		    	        <li><i>Lynda</i> - Learn Linux Command Line - The Basic <b>(33)</b></li>  
+                        <li><i>Lynda</i> - Up and Running with Bash Scripting (2013) <b>(93)</b></li>
+                        <li><i>Lynda</i> - Linux Bash Shell and Scripts <b>(46)</b></li>
+                        <li><i>Lynda</i> - Introduction to Kali Linux (2016) <b>(33)</b></li>
+                        <li><i>Lynda</i> - Introduction to Kali Linux (2017 Update) <b>(113)</b></li>
+                        <li><i>Lynda</i> - Up and Running with Fedora Linux (2015) <b>(113)</b></li>
+                        <li><i>Lynda</i> - Up and Running with CentOS Linux (2014) <b>(92)</b></li> 
+                        <li><i>Lynda</i> - Learning CentOS Linux (2019) <b>(EHD)</b></li>
+                        <li><i>Lynda</i> - Learning Ubuntu Server (2018) <b>(EHD)</b></li>
+                        <li><i>Lynda</i> - Building an Ubuntu Home Server (2017) <b>(EHD)</b></li>
+                        <li><i>Lynda</i> - Setting up a Red Hat Enterprise Linux Server <b>(EHD)</b></li>
+                        <li><i>Lynda</i> - Linux Performance Tuning (2018) <b>(EHD)</b></li>
+                        <li><i>Lynda</i> - RHCE Cert Prep Network Filesystems using NFS Samba (2018) <b>(EHD)</b></li>
+                        <li><i>Lynda</i> - AWK Essential Training (2014) <b>(113)</b></li>
+                        <li><i>Udemy</i> - CentOS 7 Linux Server- Alternative to Red Hat Enterprise (2015) <b>(EHD)</b></li>
+                        <li class="finished"><i>Bucky's</i> - Linux Tutorial for Beginners <b>(33)</b></li>
+                        <li><i>Pluralsight</i> - Linux Systems Programming (2015) <b>(92)</b></li> 
+                        <li><i>Pluralsight</i> - Learning the Essentials of CentOS Enterprise Linux 7 Administration (2018) <b>(EHD)</b></li> 
+                        <li><i>InfiniteSkills</i> - Learning Linux Ubuntu <b>(29)</b></li>
+                    </ol>
+					<h3 id="mac" >Mac OS </h3>
+                    <ol>
+                        <li><i>Lynda</i> - Customizing Macs for Accessibility and Ease of Use (2017) <b>(107)</b></li>
+                        <li><i>Lynda</i> - Unix for Mac OS X Users (2011) <b>(93)</b></li>
+                        <li><i>Udemy</i> - Setup OS X Development Environments <b>(49)</b></li>
+                        <li><i>Udemy</i> - Master Your Apple Mac: 10 Top Essential Tips and Tricks <b>(34)</b></li>
+                    </ol>	            
+				
+						
+				<h2 id="sdh" >Service Desk & Hardware&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h2>
+					<ol>
+						<li><i>Lynda</i> - CompTIA A+ Exam Prep: Laptops and Mobile Devices <b>(37)</b></li>
+						<li><i>Lynda</i> - Computer Components and Peripherals for IT Technicians (2018) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Font Management Essential Training (2018) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Help Desk Handbook for End Users -Mobile, Networking, Security, and Troubleshooting (2017) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Help Desk Handbook for End Users -PC Basics, Hardware, Operating Systems, and Applications (2017) <b>(EHD)</b></li>
+						<li><i>Udemy</i> - CompTIA A+ Certification 220-901-The Total Course (2016) <b>(EHD)</b></li>
+						<li><i>Udemy</i> - CompTIA A+ Certification 220-902-The Total Course (2016) <b>(EHD)</b></li>
+                        <li><i>Bucky's</i> - How to Build a Computer <b>(53)</b></li>
+						<li> <i>Coursera</i> - Google IT Support Specialization <span>(Google 2020) </span><b>(EHD)</b></li>
+							  <span class="crr">i. Technical Support Fundamentals </span><br>
+							  <span class="crr">ii. The Bits and Bytes of Computer Networking </span><br>
+							  <span class="crr">iii. Operating Systems and You- Becoming a Power User </span><br>
+							  <span class="crr">iv. System Administration and IT Infrastructure Services </span><br>
+							  <span class="crr">iv. IT Security- Defense against the Digital Dark Arts </span><br>
+					</ol>
+				<h2 id="ies" >IOT & Embedded Systems&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h2>
+					<ol>
+                        <li><i>Lynda</i> - Up and Running with Arduino (2014) <b>(107)</b></li>
+                        <li><i>Lynda</i> - Up and Running with Arduino (2015) <b>(107)</b></li>
+                        <li><i>Lynda</i> - Up and Running with Raspberry Pi (2016) <b>(92)</b></li>
+                        <li><i>Lynda</i> - Build a Raspberry Pi Media Server (2016) <b>(55)</b></li>
+                        <li><i>Lynda</i> - IoT Foundations: Fundamentals (2017) <b>(89)</b></li>
+                        <li><i>Lynda</i> - Programming the IOT With Android <b>(53)</b></li>
+                        <li><i>Udemy</i> - Arduino Step by Step: Your Complete Guide <b>(34)/(35)/(47)</b></li>
+                        <li><i>Coursera</i> - An Introduction to Programming the IOT Specialization <span>(UCI-2016)</span></li>
+							<span class="crr">i. Intro the IOT and Embedded Systems <b>(42)</b></span><br>
+							<span class="crr">ii. The Arduino Platform and C Programming<b>(43)</b></span><br>
+							<span class="crr">iii. Interfacing with the Arduino <b>(42)</b></span><br>
+							<span class="crr">iv. The Raspberry Pi Platform and Python Programming <b>(42)</b></span><br>
+							<span class="crr">v. Interfacing with the Raspberry Pi <b>(45)</b></span><br>
+                        <li><i>Element14.com</i> - Arduino Tutorial Series <b>(38)</b></li>
+			    	</ol> 
+				<h2 id="nt" >New Technologies&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h2>
+					<ol>
+						<li><i>Lynda</i> - Tech Sense (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - 5G Technology Strategy- Next-Generation Mobile Networking(2020) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Introduction to Quantum Computing (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Cognitive Technologies The Real Opportunities for Business (2019) <b>(EHD)</b></li>
+						<li><i>Coursera</i> - Machine Learning <span>(Stanford University 2016)</span> <b>(67)</b></li>
+					</ol>
+				<h2 id="sme" >Social Media & e-Moeny&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h2>
+					<ol>
+                        <li class="finished"><i>Lynda</i> - Up and Running With FaceBook <b>(14)</b></li>  
+                        <li><i>Lynda</i> - Advanced FaceBook Advertising (2015) <b>(55)</b></li>
+                        <li><i>Lynda</i> - Twitter Essential Training (2017) <b>(107)</b></li>
+                        <li><i>Lynda</i> - Social Media Marketing with FaceBook and Twitter <b>(44)</b></li>
+                        <li><i>Lynda</i> - LinkedIn Essential Training <b>(24)</b></li>
+                        <li><i>Lynda</i> - Up and Running with Skype for Windows <b>(32)</b></li>
+                        <li><i>Lynda</i> - YouTube Essential Training <b>(28)</b></li>
+						<li><i>Lynda</i> - Paypal Essential Training (2015) <b>(113)</b></li>
+                        <li><i>Lynda</i> - Up and Running with Bitcoin (2014) <b>(107)</b></li> 
+                        <li><i>Udemy</i> - Step by Step FaceBook Ads: Beginners Guide <b>(41)</b></li>
+                        <li><i>Udemy</i> - The Complete Bitcoin Course <b>(87)</b></li>
+                        <li><i>Udemy</i> - The Complete Digital Marketing Course - 12 Courses in 1 (2019) <b>(EHD)</b></li>
+					</ol>
+			<h1 id="cc" >CLOUD COMPUTING&nbsp <a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h1>
+				<h2 id="cfd" >Fundamentals <a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a> </h2>
+					<ol>
+						<li><i>Lynda</i> - Introduction to Cloud Computing for IT Pros (2018) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Learning Cloud Computing - Core Concepts (2016) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Learning Cloud Computing - Public Cloud Platforms (2017) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Learning Cloud Computing - Private Cloud Platforms (2017) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Learning Cloud Computing - Cloud Security (2018) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Learning Cloud Computing - Networking (2018) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Learning Cloud Computing - Cloud Storage (2018) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Learning Cloud Computing - Serverless Computing (2018) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Learning Cloud Computing - Cloud Governance (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Learning Cloud Computing - Monitoring and Operations (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Learning Cloud Computing - Application Migration (2017) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Learning Cloud Computing -The Cloud and DevOps (2018) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Learning Cloud Data Storage (2015) <b>(EHD)</b></li>
+						<li><i>Udemy</i> - Introduction to Cloud Computing <b>(49)</b></li>
+					</ol>
+				<h2 id="aws" >AWS <a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a> </h2>
+					<ol>
+						<li><i>Lynda</i> - Amazon Web Services Essential Training (2017) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Introduction to AWS for Non-Engineers -1 Cloud Concepts (2019) <b>(EHD)</b></li>
+					</ol>
+				<h2 id="gcl" >Google Cloud <a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a> </h2>
+					<ol>
+						<li><i>Lynda</i> - Learning G Suite Administration (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Up and Running with Google Cloud Platform (2015) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Google Cloud Platform Essential Training (2017) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Google Cloud Platform Essential Training (2019) <b>(EHD)</b></li>
+						<li> <i>Coursera</i> - Google Cloud Platform Fundamentals -Core Infrastructure <span>(Google 2020) </span><b>(EHD)</b></li>
+						<li> <i>Coursera</i> - G Suite Administration Specialization <span>(Google 2020) </span><b>(EHD)</b></li>
+							  <span class="crr">i. Introduction G Suite </span><br>
+							  <span class="crr">ii. Managing G Suite </span><br>
+							  <span class="crr">iii. G Suite Security </span><br>
+							  <span class="crr">iv. G Suite Mail Management </span><br>
+					</ol>
+				<h2 id="azr" >Microsoft Azure <a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a> </h2>
+					<ol>
+                        <li><i>Lynda</i> - Microsoft Azure for Developers (2016) <b>(82)</b></li>
+						<li><i>Lynda</i> - Microsoft Cloud Fundamentals- Explore Cloud Services (2019) <b>(EHD)</b></li>
+					</ol>
+				<h2 id="o365">Microsoft 365 <a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h2>
+						<h3 id="oad">Administration</h3>
+							<ol>
+								<li><i>Lynda</i> - Microsoft 365 First Look (2018) <b>(EHD)</b></li> 
+								<li><i>Lynda</i> - Microsoft 365 Essential Training (2019) <b>(EHD)</b></li>
+								<li><i>Lynda</i> - Office 365 New Features (2018) <b>(EHD)</b></li>
+								<li><i>Lynda</i> - Microsoft Office 365 Deployment (2018) <b>(EHD)</b></li>
+								<li><i>Lynda</i> - Microsoft 365 Business Essential Training for SMBs (2019) <b>(EHD)</b></li>
+							</ol>	
+						<h3 id="oex">Exchange</h3>
+							<ol>
+								<li><i>Lynda</i> - Microsoft Cloud Fundamentals- Exchange Online and Security (2020) <b>(EHD)</b></li>
+								<li><i>Lynda</i> - Outlook Essential Training (Office 365) (2019) <b>(EHD)</b></li>
+							</ol>	
+						<h3 id="osot">Sharepoint,OneDrive,Teams</h3>
+							<ol>
+								<li><i>Lynda</i> - SharePoint 2019 Essential Training -The Basics (2018) <b>(EHD)</b></li>
+								<li><i>Lynda</i> - SharePoint Online Essential Training -The Basics (2018) <b>(EHD)</b></li>
+								<li><i>Lynda</i> - SharePoint Online Essential Training (2017) <b>(EHD)</b></li>
+								<li><i>Lynda</i> - Team Collaboration in Office 365 (2017) <b>(EHD)</b></li>
+								<li><i>Lynda</i> - Learning OneDrive (2017) <b>(EHD)</b></li>
+							</ol>	
+						<h3 id="otrb">Troubleshooting</h3>
+							<ol>
+								<li><i>Lynda</i> - Microsoft Cloud Fundamentals- Troubleshooting Microsoft Online Services (2020) <b>(EHD)</b></li>
+							</ol>
+					
+            <h1 id="wb" >WEB DESIGNING&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h1>
+            	<h2 id="wb-lg">Languages&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h2>
+                	<h3 id="html">HTML </h3>
+                    	<ol>
+                            <li class="finished"><i>Lynda</i> - HTML 5 Essential Training (2012) <b>(07)</b></li>  
+							<li><i>Lynda</i> - HTML5 Structure, Syntax, and Semantics (2015) <b>(105)</b></li>
+                            <li><i>Lynda</i> - HTML5- Web Forms in Depth (2011) <b>(112)</b></li>
+                            <li><i>Lynda</i> - HTML5- Drag and Drop in Depth (2011) <b>(112)</b></li>
+                            <li><i>Lynda</i> - HTML5- File API in Depth (2011) <b>(112)</b></li>
+                            <li><i>Lynda</i> - HTML5- Geolocation in Depth (2011) <b>(112)</b></li>
+                            <li><i>Lynda</i> - HTML5- Document Editing in Depth (2012) <b>(112)</b></li>
+                            <li><i>Lynda</i> - HTML5- Background Processes with Web Workers (2012) <b>(112)</b></li>
+                            <li><i>Lynda</i> - HTML5- Local Storage and Offline Applications in Depth (2011) <b>(112)</b></li>
+                            <li><i>Lynda</i> - HTML5- Managing Browser History (2011) <b>(112)</b></li>
+                            <li><i>Lynda</i> - HTML5- Messaging and Communications (2012) <b>(112)</b></li>
+							<li><i>Lynda</i> - HTML5 Video and Audio in Depth (2011) <b>(105)</b></li>
+							<li><i>Lynda</i> - Up and Running with HTML5 Video (2013) <b>(105)</b></li>
+							<li><i>Lynda</i> - HTML Building Tables (2015) <b>(105)</b></li>
+							<li><i>Lynda</i> - HTML Structured Data (2015) <b>(105)</b></li>
+                            <li><i>Lynda</i> - HTML5 Projects - Creating a Responsive Presentation (2013) <b>(112)</b></li>
+                            <li><i>Lynda</i> - HTML5 Projects- Integrating Google Store Locator (2013) <b>(112)</b></li>
+							<li><i>Lynda</i> - HTML5 Projects-Creating an Advanced Responsive Presentation (2013)<b>(105)</b></li>
+							<li><i>Lynda</i> - HTML5 Projects-Engaging Ecommerce (2012) <b>(104)</b></li>
+                            <li><i>Udemy</i> - HTML5 Geolocation in Depth - Build 7 HTML5 Geolocation Apps (2016) <b>(87)</b></li>
+                            <li class="finished"><i>Bucky's</i> - HTML 5 Video Tutorial <b>(23)</b></li>
+                            <li><i>Bucky's</i> - XHTML/CSS Essential Video Tutorial <b>(23)</b></li>
+                            <li><i>Bucky's</i> - HTML 5 Canvas Drawing App <b>(25)</b></li>
+                            <li><i>Coursera</i> - Introduction to HTML 5 <span>(University of Michigan 2016)</span> <b>(50)</b></li>
+                            <li><i>PHP Academy</i> - HTML 5 Geolocation API <b>(25)</b></li>
+                            <li>Design the Web from HTML 5 Canvas <b>(16)</b></li>
+                    	</ol>
+                	
+                	<h3 id="css">CSS</h3>
+                    	<ol>
+                    	    <li class="finished"><i>Lynda</i> - CSS For Developers <b>(26)</b></li>
+							<li><i>Lynda</i> - CSS Essential Training 1 (2017) <b>(104)</b></li>
+							<li><i>Lynda</i> - CSS Essential Training 2 (2017) <b>(104)</b></li>
+							<li><i>Lynda</i> - CSS Selectors (2015) <b>(104)</b></li>
+                            <li><i>Lynda</i> - CSS Styling Forms (2012) <b>(112)</b></li>
+		    		        <li class="finished"><i>Lynda</i> - CSS Positioning Best Practices <b>(16)</b></li>
+		    		        <li><i>Lynda</i> - CSS Transitions and Transforms <b>(24)</b></li>
+							<li><i>Lynda</i> - CSS Animation (2016) <b>(104)</b></li>
+							<li><i>Lynda</i> - CSS Flexbox First Look (2013) <b>(104)</b></li>
+							<li><i>Lynda</i> - CSS Grid First Look (2016) <b>(104)</b></li>
+							<li><i>Lynda</i> - Making Sense of the CSS Box Model (2015) <b>(104)</b></li>
+		    		        <li><i>Lynda</i> - Design the Web- Creating CSS Only Navigation Menu <b>(33)</b></li>
+							<li><i>Lynda</i> - Advanced Responsive Layouts with CSS Flexbox (2015) <b>(104)</b></li>
+                            <li><i>Lynda</i> - CSS with LESS and Sass (2012) <b>(112)</b></li>
+							<li><i>Lynda</i> - Sass Essential Training (2015) <b>(104)</b></li>
+							<li><i>Lynda</i> - PostCSS First Look (2016) <b>(94)</b></li>
+							<li><i>Lynda</i> - CSS to Sass-Converting an Existing Site (2016) <b>(104)</b></li>
+							<li><i>Lynda</i> - Next Generation CSS Design with PostCSS and CSSNext (2017) <b>(104)</b></li>
+                            <li><i>Udemy</i> - CSS Layout Techniques (2016) <b>(87)</b></li>
+		    		        <li><i>Design the Web</i>- Getting CSS From Photoshop <b>(16)</b></li>
+							<li><i>Frontend Masters</i> - Motion Design with CSS (2016) <b>(123)</b></li>
+		    		        <li>CSS for Designers <b>(16)</b></li>
+		    		        <li>CSS Advanced Typographic Techniques <b>(16)</b></li>
+                    	</ol>
+                	<h3 id="js">JavaScript</h3>
+                    	<ol>
+                            <li class="finished" ><i>Lynda</i> - JavaScript Essential Training (2011) <b>(07)</b></li>
+							<li><i>Lynda</i> - JavaScript Essential Training (2019)  <b>(EHD)</b></li>
+                            <li class="finished"><i>Lynda</i> - JavaScript for Web Designers <b>(16)</b></li>
+                            <li class="finished"><i>Lynda</i> - JavaScript- Enhance the DOM <b>(16)</b></li>
+                            <li class="finished"><i>Lynda</i> - JavaScript Functions <b>(16)</b></li>
+                            <li><i>Lynda</i> - JavaScript Events (2013) <b>(112)</b></li>
+							<li><i>Lynda</i> - JavaScript Templating (2014) <b>(97)</b></li>
+                            <li><i>Lynda</i> - Up and Running with ECMAScript 6 (2016) <b>(75)</b></li>
+                            <li><i>Lynda</i> - Debugging the Web- JavaScript (2015) <b>(112)</b></li>
+							<li><i>Lynda</i> - Code Clinic JavaScript (2015) <b>(98)</b></li>
+							<li><i>Lynda</i> - JavaScript Classes (2018) <b>(EHD)</b></li>
+							<li><i>Lynda</i> - Learning Functional Programming with JavaScript ES6+ (2019) <b>(EHD)</b></li>
+                            <li><i>Udemy</i> - The Complete JavaScript Course - Build Real Projects (2018) <b>(EHD)</b></li>
+                            <li><i>Udemy</i> - JavaScript: Understanding the Weird parts <b>(75)</b></li>
+							<li><i>Frontend Masters</i> - The Good Parts of JavaScript and the Web (2016) <b>(99)</b></li>
+							<li><i>Frontend Masters</i> - ES6 -The Right Parts (2017) <b>(101)</b></li>
+							<li><i>Frontend Masters</i> - Functional-Lite JavaScript (2016) <b>(110)</b></li>
+							<li><i>Frontend Masters</i> - Rethinking Asynchronous JavaScript (2016) <b>(110)</b></li> 
+							<li><i>Frontend Masters</i> - Organizing JavaScript Functionality (2016) <b>(97)</b></li>
+							<li><i>Frontend Masters</i> - Creating an Open Source JavaScript Library (2016) <b>(96)</b></li> 
+							<li><i>Frontend Masters</i> - Coercion in JavaScript (2015) <b>(103)</b></li>
+							
+                    	</ol>
+                	<h3 id="php">PHP</h3>
+                    	<ol>
+                    	    <li><i>Lynda</i> - PHP and MySQL Essential Training <b>(02)</b></li>
+                            <li><i>Lynda</i> - PHP and MySQL Beyond the Basic <b>(15)</b></li>
+                            <li><i>Lynda</i> - Code Clinic PHP <b>(15)</b></li>
+                            <li><i>Lynda</i> - Object Oriented Programming With PHP <b>(15)</b></li>
+                            <li><i>Lynda</i> - Installing Apache,MySQL and PHP Tutorial <b>(05)</b></li>
+                            <li><i>Bucky's</i> - Beginner PHP 200 Tutorials <b>(15)</b></li>
+                    	</ol>
+					<h3 id="tpst">TypeScript</h3>
+						<ol>
+							<li><i>Lynda</i> - TypeScript Essential Training (2016) <b>(94)</b></li>
+							<li><i>Lynda</i> - Migrating to TypeScript 2 (2017) <b>(94)</b></li>
+						</ol>
+                <h2 id="wb-lb" >Libraries/Frameworks/APIs&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h2>
+                	<h3 id="jq">Jquery</h3>
+                    	<ol>
+                            <li class="finished"><i>Lynda</i> - JQuery Essential Training (2015) <b>(17)</b></li>
+                            <li><i>Lynda</i> - JQuery Essential Training (2013) <b>(17)</b></li>
+                            <li class="finished"><i>Lynda</i> - JQuery for Web Designers <b>(17)</b></li>
+                            <li><i>Lynda</i> - JQuery UI Widgets (2013) <b>(93)</b></li>
+                            <li><i>Lynda</i> - Creating Custom Spry Widgets <b>(108)</b></li>
+                            <li><i>Lynda</i> - Creating Expandable Panels With JQuery <b>(49)</b></li>
+                            <li><i>Lynda</i> - Creating a Tooltip with jQuery (2012) <b>(108)</b></li>
+                            <li><i>Lynda</i> - Creating a Sliding Tabbed Panel with jQuery (2012) <b>(108)</b></li>
+                            <li><i>Lynda</i> - Creating Navigation Menus with jQuery (2012) <b>(108)</b></li>
+                            <li><i>Lynda</i> - Creating a Responsive Sortable Photo Gallery with jQuery (2013) <b>(108)</b></li>
+                            <li><i>Lynda</i> - Create an HTML5 Video Gallery with jQuery and Dreamweaver (2011) <b>(108)</b></li>
+                            <li><i>Lynda</i> - Creating a Sliding Tabbed Panel with jQuery and Dreamweaver (2012) <b>(108)</b></li>
+                            <li><i>Lynda</i> - Creating Navigation Menus with jQuery and Dreamweaver (2012) <b>(108)</b></li>
+                            <li><i>Lynda</i> - Creating an Interactive Animated Timeline with jQuery (2013) <b>(108)</b></li>
+                            <li><i>Lynda</i> - Create a Rotating Carousel with jQuery and Dreamweaver (2012) <b>(108)</b></li>
+                            <li><i>Lynda</i> - Create Animated Rollovers with jQuery and Dreamweaver (2011) <b>(108)</b></li>
+                            <li><i>TheNewboston</i> - JQuery Tutorial <b>(51)</b></li>
+                    	</ol>
+                	<h3 id="ajax">Ajax / Json</h3>
+                    	<ol>
+                    	    <li><i>Lynda</i> - AJAX Essential Training <b>(17)</b></li>
+        	                <li class="finished"><i>Lynda</i> - JavaScript and AJAX <b>(16)</b></li>
+                            <li class="finished"><i>Lynda</i> - JQuery Data With AJAX <b>(17)</b></li>
+        	                <li class="finished"><i>Lynda</i> - JavaScript and JSON <b>(16)</b></li>
+        	                <li><i>Lynda</i> - AJAX with PHP <b>(48)</b></li>
+        	                <li><i>Bucky's</i> - AJAX Tutorial <b>(17)</b></li>
+                    	</ol>
+                	<h3 id="bts">Bootstrap</h3>
+                    	<ol>
+                    	    <li><i>Lynda</i> - Bootstrap 3 Essential Training <b>(25)</b></li>
+							<li><i>Lynda</i>Lynda - Bootstrap 4 First Look (2016) <b>(94)</b></li>
+							<li><i>Lynda</i>Lynda - Bootstrap 4 Essential Training (2017) <b>(96)</b></li>
+							<li><i>Lynda</i>Lynda - Bootstrap 4 Migration (2017) <b>(96)</b></li>
+                            <li><i>Udemy</i> - Bootstrap UI Development for Everyone <b>(65)</b></li>
+                    	</ol>
+                	<h3 id="wp">WordPress</h3>
+                    	<ol>
+                            <li><i>Lynda</i> - WordPress 3 Essential Training <b>(17)</b></li>
+                            <li><i>Lynda</i> - Installing and Running WordPress- WAMP (2016) <b>(112)</b></li>
+                            <li><i>Lynda</i> - Installing and Running WordPress- MAMP (2015) <b>(112)</b></li>
+                            <li><i>Lynda</i> - Installing and Running WordPress: BitNami (2016) <b>(50)</b></li>
+                            <li><i>Lynda</i> - WordPress and Internationalization (2016) <b>(89)</b></li>
+                    	</ol>
+                	<h3 id="ang">Angular</h3>
+                    	<ol>
+							<li><i>Packt</i> - Migrating to Angular 2 (2016) <b>(94)</b></li>
+                    	    <li><i>Lynda</i> - Learn Angular.js 2 - The Basics (2016) <b>(55)</b></li>
+                            <li><i>Lynda</i> - Angular 2 Essential Training (2016) <b>(47)</b></li>
+                            <li><i>Lynda</i> - Angular 2 Essential Training (2016 NewUpdate) <b>(64)</b></li>
+                            <li><i>Lynda</i> - Angular 2 Forms Data Binding and Validation (2016) <b>(75)</b></li>
+							<li><i>Lynda</i> - Angular2 for .NET Developers (2016) <b>(94)</b></li>
+							<li><i>Lynda</i> - Angular 2 Testing and Debugging (2017) <b>(94)</b></li>
+							<li><i>Lynda</i> - Angular 2 Widget-Based Architectures (2017) <b>(94)</b></li>
+							<li><i>Lynda</i> - Angular Template Design and Implementation (2017) <b>(94)</b></li>
+							<li><i>Lynda</i> - Building Custom HTML5 Video Playback with Angular 2 (2016) <b>(94)</b></li>
+							<li><i>Lynda</i> - Managing Data in Angular 2 Applications (2016) <b>(94)</b></li>
+                            <li><i>Udemy</i> - Angular 2: The Complete Guide <b>(74)</b></li>
+                            <li><i>InfiniteSkills</i> - Learning Angular.js <b>(60)</b></li>
+                    	</ol>
+                	<h3 id="rct">React</h3>
+                    	<ol>
+                    	    <li><i>Lynda</i> - Learn Ract.js: The Basics (2016) <b>(75)</b></li>
+							<li><i>Lynda</i> - React.js Essential Training (2016) <b>(103)</b></li>
+							<li><i>Lynda</i> - React Testing and Debugging (2017) <b>(103)</b></li>
+							<li><i>Lynda</i> - React Ecosystems (2017) <b>(103)</b></li>
+							<li><i>Lynda</i> - Building a Web Interface with React.js (2016) <b>(103)</b></li>
+							<li><i>Lynda</i> - From React to React Native (2017) <b>(103)</b></li>
+							<li><i>Lynda</i> - Learning React Native (2017) <b>(103)</b></li>
+							<li><i>Lynda</i> - React Native-Building Mobile Apps (2017) <b>(103)</b></li>
+                            <li><i>Udemy</i> - The Complete React Web App Developer Course <b>(30)/(31)</b></li>
+                            <li><i>Udemy</i> - React Front To Back (2019) <b>(EHD)</b></li>
+                            <li><i>Bucky's</i> - React Tutorial <b>(71)</b></li>
+                            <li><i>Egghead</i> - Build a React Native Todo Applicatione <b>(68)</b></li>
+                    	</ol>
+                	<h3 id="node">Node.js</h3>
+                    	<ol>
+                    	    <li><i>Lynda</i> - Node.js Essential Training <b>(25)</b></li>
+                            <li><i>Lynda</i> - Building a Website With Node.js and Express.js (2016) <b>(49)</b></li>
+                            <li><i>Bucky's</i> - Node.js Tutorial for Beginners <b>(25)</b></li>
+                            <li><i>Pluralsight</i> - Introduction to Node.js (2012) <b>(EHD)</b></li>
+							<li><i>Frontend Masters</i> - Real-Time Web with Node.js (2014) <b>(103)</b></li>
+                            
+                    	</ol>
+                    <h3 id="d3" >D3.js</h3>
+						<ol>
+						    <li><i>Lynda</i> - D3.js Essential Training For Data Scientists (2016) <b>(68)</b></li>
+						</ol>                    
+                	<h3 id="asp">ASP.net</h3>
+                    	<ol>
+                    	    <li><i>Lynda</i> - ASP.NET Essential Training <b>(14)</b></li>
+                            <li><i>Lynda</i> - ASP.NET MVC 5 <b>(14)</b></li>
+                            <li><i>Udemy</i> - ASP.NET MVC Quick Start <b>(48)</b></li>
+                            <li>Introduction to ASP.net Web API <b>(14)</b></li>
+                    	    </ol>
+					<h3 id="djng" >Django</h3>
+						<ol>
+							<li><i>Lynda</i> - Learning Python and Django (2015) <b>(100)</b></li>
+							<li><i>Packt</i> - Advanced Django Web Development (2016) <b>(100)</b></li>
+							<li><i>Packt</i> - Learning Flask (2015) <b>(100)</b></li>
+							<li><i>Udemy</i> - Mastering DJango Web Development <b>(49)</b></li>
+							<li><i>Bucky's</i> - DJango Tutorial for Beginners <b>(44)</b></li>
+							<li><i>Bucky's</i> - Python Web Crawler Tutorial <b>(53)</b></li>
+							<li><i>InfiniteSkills</i> - Web Programming with Python <b>(11)</b></li> 
+						</ol>
+                <h2 id="wb-fs" >Full-Stuck Development&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h2>
+                	<ol>
+                        <li><i>Lynda</i> - Becoming Web Developer: Full Stack vs Front-End (2016) <b>(83)</b></li>
+						<li><i>Lynda</i> - Building a Full-Stack Application with Angular 2, ASP.NET Core, and Authentication (2017) <b>(95)</b></li>
+						<li><i>Lynda</i> - Building a Full-Stack App with Angular 2+ and Spring Boot (2017) <b>(95)</b></li>
+						<li><i>Lynda</i> - Building a Simple Full-Stack App with Angular 2, Node.js, and Authentication (2017) <b>(95)</b></li>
+						<li><i>Lynda</i> - Learning Full-Stack JavaScript Development-MongoDB, Node, and React (2016) <b>(95)</b></li>
+						<li><i>Lynda</i> - Building and Deploying a Full-Stack React Application (2017) <b>(95)</b></li>
+                        <li><i>Lynda</i> - MEAN Stack and MongoDB Development Techniques (2016) <b>(89)</b></li>
+						<li><i>Lynda</i> - Building a Polling App with Socket IO and React.js (2015) <b>(95)</b></li>
+                        <li><i>Lynda</i> - Design the Web Series ( 4 Courses) <b>(37)</b></li>
+                        <li><i>Lynda</i> - Foundation of Programming- Web Services <b>(18)</b></li>
+                        <li><i>Lynda</i> - Validation and Processing Forms with JavaScript and PHP <b>(25)</b></li>
+						<li><i>Lynda</i> - Building a Progressive Web App (2016) <b>(95)</b></li>
+                        <li><i>Lynda</i> - Managing a Hosted Web Site <b>(28)</b></li>
+                        <li><i>Lynda</i> - React Creating and Hosting a Full-Stack Site (2019) <b>(EHD)</b></li>
+                        <li><i>Udemy</i> - The Complete Web Developer Master Class <b>(36)/(37)</b></li>
+                        <li><i>Udemy</i> - Build an e-Commerce WebSite from Scratch with PHP and Bootstrap <b>(55)</b></li>
+                        <li><i>Udemy</i> - Build a Web Development Lab for Scratch <b>(55)</b></li>
+                        <li><i>Udemy</i> - Manage a Hosted WebSite (Quick Guide) <b>(49)</b></li>
+						<li><i>Udemy</i> - Full website Hosting with FTP for students (2017) <b>(122)</b></li>
+                        <li><i>Udemy</i> - Powerful Chrome Dev Tools Essential for Web Developers <b>(41)</b></li>
+                        <li><i>Udemy</i> - The Web Developer Bootcamp (2019) <b>(EHD)</b></li>
+                        <li><i>Bucky's</i> - SEO for Beginners <b>(56)</b></li>
+                        <li><i>Coursera</i> - Full Stack Web and Multiplatform Mobile App Development Specialization <span>(HongKong-2016)</span></li>
+							<span class="crr">i. HTML,CSS and JavaScript <b>(45)</b></span><br>
+							<span class="crr">ii. Front-End Web UI Frameworks and Tools  <b>(45)</b></span><br>
+							<span class="crr">iii. Front-end JavaScript FrameWorks- Angular.js <b>(45)</b></span><br>
+							<span class="crr">iv. Multi Platform Mobile App Development with Web Technologies <b>(45)</b></span><br>
+							<span class="crr">v. Server Side Development with Node.js <b>(45)</b></span><br>
+                        <li><i>Plurasight</i> - Full Stack Web Development with Python (WEB2PY) (2015) <b>(EHD)</b></li>
+                        <li>Analyzing Your Web Site to Improve SEO <b>(15)</b></li>
+                        <li>Wed Design - Sinhala Video Tutorial</li>
+                    </ol>
+                <h2 id="wb-sf">Software&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h2>
+                	<ol>
+                	    <li><i>Lynda</i> - Creating Web Site With Adobe DW CS 6 <b>(03)</b></li>
+                        <li>HTML5/CSS3/JQuery Web Design With Adobe DW CS 5.5 <b>(03)</b></li>
+                        <li>Web Design with Photoshop <b>(07)</b></li>                        
+                	</ol>
+                <h2 id="wb-mb" >Mobile Web And Responsive Design&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h2>
+                	<ol>
+                        <li><i>Lynda</i> - Creating a Responsive Web Design <b>(17)</b></li>  
+                        <li><i>Lynda</i> - Responsive Design With Bootstrap and Dreamviewer CC (2015) <b>(55)</b></li>
+                        <li><i>Lynda</i> - JQuery Mobile Essential Training <b>(17)</b></li>
+						<li><i>Lynda</i> - Responsive Images (2015) <b>(95)</b></li>
+                        <li><i>Coursera</i> - Advanced Styling with Responsive Design <span>(University of Michigan 2016)</span> <b>(50)</b></li>                        
+                	</ol>
+					
+            <h1 id="op">OFFICE PRODUCTIVITY&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h1>
+				<h2 id="ms">Microsoft Office&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h2>
+					<ol>
+						<li><i>Lynda</i> - Word 2016 Essential Training (2016) <b>(122)</b></li>
+                        <li><i>Lynda</i> - Excel 2016 Essential Training (2015) <b>(106)/(122)</b></li>
+                        <li><i>Lynda</i> - Excel 2016- Cleaning Up Your Data (2017) <b>(106)</b></li>
+                        <li><i>Lynda</i> - Excel 2013- Macros in Depth (2014) <b>(92)</b></li>
+                        <li><i>Lynda</i> - Excel VBA in Depth (2010) <b>(106)</b></li>
+                        <li><i>Lynda</i> - Learning VBA in Excel (2019) <b>(EHD)</b></li>
+                        <li><i>Lynda</i> - Excel- Macros in Depth (Office 365-Excel 2019) (2020) <b>(EHD)</b></li>
+                        <li><i>Lynda</i> - Learning Excel Online (Office 365) (2019) <b>(EHD)</b></li>
+                        
+                        <li><i>Udemy</i> - Basic and Intermediate Excel 2013 for Anyone (2015) <b>(107)</b></li>
+                        <li><i>Udemy</i> - Learn Excel 2016 Intermediate Level (2017) <b>(106)</b></li>
+                        <li><i>Udemy</i> - Excel 2013 Common Math Functions (2015) <b>(107)</b></li>
+						<li><i>Udemy</i> - Excel Formula Blueprint (2016) <b>(122)</b></li>
+						<li><i>Udemy</i> - Excel VBA and Macros programming (2017) <b>(122)</b></li>
+                        <li><i>Udemy</i> - Power Point Design- Make Great Slideshows <b>(43)</b></li>
+                        <li><i>Dummies</i> - Excel 2016 For Dummies Enhancing Sharing Data <b>(106)</b></li>
+                        <li> <i>Coursera</i> - Excel-VBA for Creative Problem Solving Specialization <span>(Colorado 2020) </span><b>(EHD)</b></li>
+							  <span class="crr">i. Excel-VBA for Creative Problem Solving Specialization Part1 </span><br>
+							  <span class="crr">ii. Excel-VBA for Creative Problem Solving Specialization Part 2 </span><br>
+							  <span class="crr">iii. Excel-VBA for Creative Problem Solving Specialization Part3 - Projects </span><br>
+                        <li>Basic Excel Shortcuts For 11 Everyday Tasks Get 65% Faster <b>(106)</b></li>
+					</ol>
+					
+				<h2 id="gl">Google Apps&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h2>
+					<ol>
+						<li><i>Lynda</i> - Google Docs Essential Training (2015) <b>(122)</b></li>
+						<li><i>Lynda</i> - Google Sheets Essential Training (2014) <b>(122)</b></li>
+						<li><i>Lynda</i> - Google Drive Essential Training <b>(37)</b></li>
+                        <li><i>Lynda</i> - Gmail Essential Training (2016) <b>(66)</b></li>
+						<li><i>Lynda</i> - Gmail Essential Training (2020) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Gmail Advanced Tips and Tricks (2016) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Gmail New Features (2018) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Google Photos Tips and Tricks (2015) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Google Photos Tips, Tricks, and Techniques (2017) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Learning Google Classroom 2016 (2016) <b>(EHD)</b></li>
+					</ol>
+				<h2 id="adb">Adobe Acrobat&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h2>
+					<ol>
+						<li><i>Lynda</i> - <b>(EHD)</b></li>
+					</ol>	
+				<h2 id="dbx">Dropbox&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h2>
+					<ol>
+						<li><i>Lynda</i> - Learning Dropbox (2018) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Up and Running with Dropbox (2015) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Leverage Dropbox Cloud Storage to Boost Your Productivity (2015) <b>(EHD)</b></li>
+					</ol>
+				<h2 id="sap">SAP&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h2>
+					<ol>
+						<li><i>Lynda</i> - SAP ERP Essential Training (2018) <b>(EHD)</b></li>
+					</ol>
+				
+			<h1 id="dsn">DESIGN&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h1>
+				<h2 id="gd">Graphic Design&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h2>
+					<ol>
+						<li><i>Lynda</i> - Illustrator CC Essential Training (2015) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Illustrator -Tracing Artworks (2017) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Logo Design -Techniques (2016) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - The Science of Logo Design (2017) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - PhotoShop CC Essential Training (2015) <b>(42)</b></li>
+						<li><i>Udemy</i> - Illustrator CC 2019 MasterClass (2018) <b>(EHD)</b></li>
+						<li><i>Udemy</i> - Learn Photoshop, Web Design & Profitable Freelancing (2019) <b>(EHD)</b></li>
+						<li><i>Udemy</i> - Ultimate Photoshop Training From Beginner to Pro (2019) <b>(EHD)</b></li>
+						<li><i>Bucky's</i> - PhotoShop CS 3 Tutorials <b>(56)</b></li>
+						<li>PhotoShop CS 6 Tutorial <b>(52)</b></li>
+					</ol>
+				<h2 id="3d">3D Modeling&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h2>
+					<ol>
+						<li><i>Lynda</i> - 3Ds MAX Essential Training <b>(22)</b></li>  
+						<li>3Ds Max Learn in Sinhala Tutorial <b>(91)</b></li>
+					</ol>
+				<h2 id="ave">Animations & Video Editing&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h2>
+					<ol>
+						<li><i>NPC</i> - Adobe Premiere Pro CS4 Tutorial (Sinhala) <b>(91)</b></li>                
+						<li><i>Lynda</i> - Adobe PrimerPro Essential Training <b>(06)</b></li>
+						<li><i>LiveHearts Studios</i> - Adobe Premiere pro Tutorial (Sinhala) <b>(92)</b></li>
+						<li><i>Lynda</i> - Maya 2017 Essential Training (2016) <b>(93)</b></li>
+					</ol>
+				
+			<h1 id="mad">MOBILE APP DEVELOPMENT&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h1>
+				<h2 id="and">Android&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h2>
+					<ol>
+                        <li><i>Lynda</i> - Android Studio Essential Training (2016) <b>(92)</b></li>
+                        <li><i>Lynda</i> - Android Studio Essential Training (2015) <b>(75)</b></li>
+                        <li><i>Lynda</i> - Android App Development Essentials- Manage & Present Data (2016) <b>(109)</b></li>
+                        <li><i>Lynda</i> - Distributing Android Apps (2015) <b>(92)</b></li>
+                        <li><i>Lynda</i> - Building Flexible Android Apps With the Fragments API <b>(49)</b></li>
+                        <li><i>Lynda</i> - Android App Development with Java Essential <b>(05)</b></li>
+                        <li><i>Lynda</i> - Android SDK Essential Training (David Gasner) <b>(12)</b></li>
+                        <li><i>Lynda</i> - Google Firebase for Android: First Look (2016) <b>(83)</b></li>
+                        <li><i>Udemy</i> - Master Android 7 App Development With Java <b>(70)/(71)</b></li>
+                        <li><i>Udemy</i> - The Complete Android N Developer Course (2019) <b>(EHD)</b></li>
+                        <li><i>Udemy</i> - Build a Web Browser for Android-  2hour Android Project <b>(90)</b></li>
+                        <li><i>Bucky's</i> - Android App Development for Beginners <b>(53)</b></li>
+                        <li><i>Android Beginners Series</i> - Just Enough Java <b>(05)</b></li>    
+                    </ol>
+				<h2 id="ios">IOS&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h2>
+					<ol>
+						<li><i>Lynda</i> - IOS App Development <b>(11)</b></li>
+                        <li><i>Bucky's</i> - IOS App Development with Swift <b>(53)</b></li>
+					</ol>
+			
+			<h1 id="gmd">GAME DEVELOPMENT&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h1>
+            	<ol>
+					<li><i>Lynda</i> - Game Development Foundations Game-Related Math (2017) <b>(100)</b></li>
+            	    <li><i>Lynda</i> - Unity 3D 3.5 Essential Training <b>(21)</b></li>  
+                    <li><i>Lynda</i> - Unity 5 - 3D Essential Training (2015) <b>(EHD)</b></li>
+                    <li><i>Lynda</i> - Advanced Unity 3D Game Development <b>(21)</b></li>
+                    <li><i>Lynda</i> - Unity 5 UI (2016) <b>(64)</b></li>
+                    <li><i>Lynda</i> - Open GL Essential Training <b>(09)</b></li>
+					<li><i>Lynda</i> - 2D Game Design and Development Essential Training (2016) <b>(100)</b></li>
+					<li><i>Packt</i> - HTML5 Game Development (2017) <b>(100)</b></li>
+				    <li><i>Packt</i> - Mastering HTML5 Game Development (2017) <b>(100)</b></li>
+                    <li><i>Udemy</i> - The Unreal Engine Developer Course: Learn C++ and Make Games <b>(76)/(77)/(78)/(79)/(80)/(81)</b></li>
+                    <li><i>Udemy</i> - Complete C# Unity Developer 2D Learn to Code Making Games (2019) <b>(EHD)</b></li>
+                    <li><i>Udemy</i> - Complete C# Unity Developer 3D Learn to Code Making Games (2018) <b>(EHD)</b></li>
+                    <li><i>Udemy</i> - The Unreal Engine Developer Course -Learn C++ & Make Games (2017) <b>(EHD)</b></li>
+                    <li><i>Bucky's</i> - Unreal Development Kit: UDK Tutorial <b>(24)</b></li>
+                    <li><i>Bucky's</i> - Unity 2D Game Development Tutorial <b>(25)</b></li>
+                    <li><i>YouTube</i> - Let's Dev With Greg (Game Development 2D) <b>(50)</b></li>
+                    <li><i>Coursera</i> - Game Design and Development Specialization <span>(Michigan State-2016)</span></li>
+						<span class="crr">i. Introduction to Game Development <b>(39)</b></span><br>
+						<span class="crr">ii. Principles of Game Development <b>(39)</b></span><br>
+						<span class="crr">iii. Game Development for Modern Platforms <b>(39)</b></span><br>
+                    <li><i>InfiniteSkills</i> - Creating First-Person Shooter Games with Unity <b>(87)</b></li>
+            	</ol>
+
+			<h1 id="bl">BUSINESS & LANGUAGES&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h1>
+                <h2 id="be" >Business Etiquette&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h2> 
+					<ol>
+						<li><i>Lynda</i> - Business Etiquette Phone, Email, and Text (2015) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Ecommerce Fundamentals (2020) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Freelancing Tips (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Writing a Resume (2016) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Writing Email (2014) <b>(EHD)</b></li>
+					</ol>
+                <h2 id="el" >English Language&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h2> 
+					<ol>
+						<li><i>Lynda</i> - Writing in Plain English (2016) <b>(107)</b></li>
+						<li><i>Lynda</i> - Grammar Fundamentals (2014) <b>(107)</b></li>
+						<li><i>Lynda</i> - Effective Public Speaking (2012) <b>(107)</b></li>                
+						<li><i>Lynda</i> - Efficient Time Management (2016) <b>(107)</b></li>                
+						<li><i>Udemy</i> - English Grammar for Beginners <b>(55)</b></li>
+						<li><i>Udemy</i> - Learn English Online with Native English Teacher <b>(51)</b></li>
+						<li><i>Udemy</i> - Complete English: Pre Intermediate Level <b>(55)</b></li>
+						<li><i>Udemy</i> - Complete English: Advanced Level <b>(55)</b></li>
+						<li><i>Udemy</i> - Everyday English: Learn Practical Real English Fast <b>(54)</b></li>
+						<li><i>Udemy</i> - Perfect English Pronunciation Practice <b>(55)</b></li>
+						<li><i>Udemy</i> - Master Idioms (Learn 52 Idioms) <b>(48)</b></li>
+						<li><i>Udemy</i> - Writing Basics: Learn the Writing Process in 5 Easy Steps <b>(46)</b></li>
+						<li><i>Udemy</i> - Master Polite English <b>(46)</b></li>
+						<li><i>Udemy</i> - Differences between TOEFL & IELTS <b>(71)</b></li>
+						<li><i>Udemy</i> - English Grammar Launch Advanced (2018) <b>(115)</b></li>
+						<li><i>Udemy</i> - Secrets of Spoken English (2017) <b>(121)</b></li>
+						<li><i>Udemy</i> - English Language Intensive Course (Beginner level English) (2018) <b>(EHD)</b></li>
+						<li><i>Udemy</i> - Learn English Speaking Course -How To Speak English Fluently (2018) <b>(EHD)</b></li>
+						<li><i>Udemy</i> - Perfect English Pronunciation British English (2018) <b>(EHD)</b></li>
+						<li><i>Udemy</i> - TOEFL iBT Complete Online Preparation Course (2019) <b>(EHD)</b></li>
+						<li><i>Udemy</i> - Memory Experts' Tools  Memorize Playing Cards like a PRO (2018) <b>(123)</b></li>
+						<li><i>Coursera</i> - Speak Professionally in English <span>(Georia Tech University 2016)</span> <b>(50)</b></li>
+						<li><i>Coursera</i> - Introduction to Public Speaking <span>(University of Washington 2014) <b>(40)</b></li>
+						<li><i>Coursera</i> - Learn English: Intermediate Grammar Specialization <span>(UCI-2016)</span></li>
+							<span class="crr">i. Perfect Tenses and Models <b>(49)</b></span><br>
+							<span class="crr">ii. Adjectives and Adjective Clauses <b>(49)</b></span><br>
+							<span class="crr">iii. Tricky English Grammar <b>(49)</b></span><br>
+						<li><i>Coursera</i> - Learn English: Advanced Academic Speaking and Listening Specialization <span>(UCI-2016)</span></li>
+							<span class="crr">i. Academic Listening and Note-Taking <b>(70)</b></span><br>
+							<span class="crr">ii. Presentations: Speaking so that People Listen <b>(70)</b></span><br>
+							<span class="crr">iii. Academic Discussions in English <b>(70)</b></span><br>
+						<li><i>KhanAcademy</i> - Grammar <b>(53)</b></li>
+						<li><i>EnglishClass101</i> - Learn English in the Fastest, Easiest and Most Fun Way <b>(EHD)</b></li>
+						<li><i>PronunciationWorkShop</i> - American Accent Video Training Program (2007) <b>(EHD)</b></li>
+						<li>Speakout Advanced BBC Interviews <b>(60)</b></li>
+						<li>Basic English Fluently in a Week <b>(55)</b></li>
+					</ol>
+                    
+			<h1 id="scc">SCIENCE&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h1>
+                <h2 id="phy">Physics & Chemistry&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h2> 
+					<ol>
+						<li><i>Bucky's</i> - Chemistry Lab Tutorials <b>(60)</b></li>
+						<li><i>Coursera</i> - Introduction to Chemistry: Reactions and Ratios <span>(Duke University 2015)</span> <b>(50)</b></li>
+						<li><i>Coursera</i> - Chemistry <span>(University of Kentucky 2016)</span> <b>(50)</b></li>
+						<li><i>KhanAcademy</i> - Physics <b>(58)/(59)</b></li>
+						<li><i>KhanAcademy</i> - Chemistry <b>(60)/(61)</b></li>
+						<li><i>KhanAcademy</i> - Organic Chemistry <b>(56)</b></li>
+					</ol>
+                <h2 id="ast">Astronomy&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a></h2>  
+					<ol>
+						<li><i>Coursera</i> - Astronomy - Exploring Time and Space <span>(The University of Arizona 2020)</span> <b> (EHD)</b></li>
+						<li><i>Coursera</i> - Introduction to Astronomy <span>(Duke University 2013)</span> <b>(54)</b></li>
+						<li><i>KhanAcademy</i> - Cosmology and Astronomy <b>(59)</b></li>
+					</ol>
+                <h2 id="er">Electronics & Robotocs&nbsp</h2>  
+                    <ol>
+                        <li><i>Bucky's</i> - Robotic and Electronics <b>(53)</b></li>
+						<li><i>Coursera</i> - Introduction to Electronics <span>(Georia Tech University 2016)</span> <b>(54)</b></li>
+                        <li><i>Pluralsight</i> - Electronics Fundamentals (2015) <b>(107)</b></li>
+						<li>Electronics Sinhala Tutorials <b>(123)</b></li>
+                    </ol> 
+				<h2 id="hlt">Helth&nbsp</h2> 
+					<ol>
+						<li><i>Udemy</i> - Bodybuilding Masterclass -Build The Ultimate Male Body <b>(EHD)</b></li>
+					</ol>
+        </div>
+		
+        <script>
+            var is_hide = true;
+            function change(e) {       //Navigation Menu Show & Hidden
+                if (is_hide) {
+                    e.nextElementSibling.style.display = "block"
+                    e.innerHTML = "-";
+                    is_hide = false;		
+                } else {
+                    e.nextElementSibling.style.display = "none";
+                    e.innerHTML = "+";
+                    is_hide = true;
+                }
+            }
+            function getAll() {         // Get All Items
+            	counts = document.getElementById("doc").getElementsByTagName('li').length;
+                return counts;                  
+            }
+            function viewCount() {		//View All Items 
+	            document.getElementById("vids").setAttribute("value",getAll());
+            }
+            function finishCount () {   //View Finished
+                counts = document.getElementsByClassName('finished').length;
+                document.getElementById("finish").setAttribute("value",counts);
+            }
+        </script>
+    </body>
+</html>
+
+
+<!-- Last Edited: 2020/10/12 09:47 PM -->
+ 
