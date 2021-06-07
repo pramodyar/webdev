@@ -7,8 +7,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
         <style>
             nav {
-                font-family: 'Comic Neue', cursive,'comic sans ms',sans-serif;
-				font-weight: 700;
+                font-family: 'comic sans ms','Comic Neue', cursive,sans-serif;
                 width: 25%;
                 background-color: #3ec1d3	;
                 overflow: auto;
@@ -43,7 +42,7 @@
 				color: #ff165d;
             }
                 h1 {text-align: center;color: #3ec1d3;border: 2px solid white;background-color: #1f2833;position:sticky;top: -1px; }
-                h2 {text-align: center;color: #c5c6c7;border: 2px solid white;background-color: #1f2833;border-radius: 30px;padding:0 10px;width: 80%;margin: 0 auto;}
+                h2 {text-align: center;color: #c5c6c7;border: 2px solid white;background-color: #1f2833;border-radius: 30px;padding:0 10px;margin: 0 auto;}
 				h3 {background-color:#1f2833;width: 200px;padding: 0 20px;display: inline; border-radius: 30px;}
                 i {color:  #ff9a00;}
                 em {color: green}
@@ -53,6 +52,7 @@
                 .finished {background-color: rgba(149, 206, 149, 0.2);}
                 .but-spn {float:right;color: black;}
                 div span {color: #800080;}	
+				svg {padding: 0 6px 0 0 ;}
 				
 				
             
@@ -172,10 +172,12 @@
 </svg> Office Productivity&nbsp</a><span>>>></span>
                 	<ul >
                 	    <li><a href="#ms">Microsoft Office</a></li>
+                	    <li><a href="#msp">MS Power Platform</a></li>
                 	    <li><a href="#gl">Google Apps</li>
                 	    <li><a href="#adb">Adobe Acrobat</li>
                 	    <li><a href="#dbx">Dropbox</a></li>
-                	    <li><a href="#sap">SAP</a></li>
+                	    <li><a href="#sap">SAP / QB</a></li>
+                	    <li><a href="#olm">Online Meetings</a></li>
                 	</ul>
                 </li>
                 <li><a href="#dsn" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-palette" viewBox="0 0 16 16">
@@ -224,7 +226,7 @@
   <path d="M1.333 2.667C1.333 1.194 4.318 0 8 0s6.667 1.194 6.667 2.667V4c0 1.473-2.985 2.667-6.667 2.667S1.333 5.473 1.333 4V2.667z"/>
   <path d="M1.333 6.334v3C1.333 10.805 4.318 12 8 12s6.667-1.194 6.667-2.667V6.334a6.51 6.51 0 0 1-1.458.79C11.81 7.684 9.967 8 8 8c-1.966 0-3.809-.317-5.208-.876a6.508 6.508 0 0 1-1.458-.79z"/>
   <path d="M14.667 11.668a6.51 6.51 0 0 1-1.458.789c-1.4.56-3.242.876-5.21.876-1.966 0-3.809-.316-5.208-.876a6.51 6.51 0 0 1-1.458-.79v1.666C1.333 14.806 4.318 16 8 16s6.667-1.194 6.667-2.667v-1.665z"/>
-</svg> All Courses</button> <input type="text" id="vids" disabled> <span class="but-spn">Date: 2021 June 04</span>
+</svg> All Courses</button> <input type="text" id="vids" disabled> <span class="but-spn">Last Update: 2021 June 07</span>
             
             <button id="btn4" onclick=finishCount() ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
   <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
@@ -259,6 +261,7 @@
 							<li><i>Lynda</i> - C Essential Training- 1 The Basics (2018) <b>(EHD)</b></li>                 
 							<li><i>Lynda</i> - Further Topics in C <b>(13)</b></li>
 							<li><i>Lynda</i> - Advanced C Programming (2015) <b>(EHD)</b></li>                 
+							<li><i>Lynda</i> - Master C Language Pointers (2020) <b>(EHD)</b></li>                 
 							<li><i>Lynda</i> - C Data Structures, Pointers, and File Systems (2019) <b>(EHD)</b></li>
 							<li><i>Lynda</i> - Secure Coding in C (2019)<b>(EHD)</b></li>                 
 							<li><i>Lynda</i> - C Standard Library (2019) <b>(EHD)</b></li>
@@ -835,9 +838,13 @@
 						<li><i>Lynda</i> - Building Your Technology Skills (2016) <b>(99)</b></li>
                         <li><i>Lynda</i> - Up And Running With The Powershell Integrated Scripting Environment (2015) <b>(92)</b></li>
 						<li><i>Lynda</i> - Migrating to Windows 10 for Small Businesses (2019) <b>(EHD)</b></li>
-						<li><i>Lynda</i> - Windows Server 2012 -Installation and Configuration (2014) <b>(EHD)</b></li>
 						<li><i>Lynda</i> - Windows Server 2019 Essential Training (2018) <b>(EHD)</b></li>
-						<li><i>Udemy</i> - Microsoft Windows Server 2016 Training for Beginners (2017) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Windows Server 2012 -Installation and Configuration (2014) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Windows Server 2016- Configure Hyper-V (2017) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Learning Virtualization (2014) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Windows Server 2012 R2- Configuring Hyper-V (2015) <b>(EHD)</b></li>
+						<li><i>Eli</i> - Windows Server 2012 (2013) <b>(EHD)</b></li>
+						<li><i>Udemy</i> - Windows Server 2016- Remote Access Solutions (2017) (2017) <b>(EHD)</b></li>
 						<li><i>Udemy</i> - Microsoft Windows Server 2012 Certification Exam 70-410 (2014) <b>(EHD)</b></li>
                         <li><i>Bucky's</i> - Windows Command Line Tutorial <b>(61)</b></li>
                         <li><i>Pluralsight</i> - Windows Registry Troubleshooting (2017) <b>(92)</b></li> 
@@ -963,7 +970,6 @@
                         <li><i>Lynda</i> - Twitter Essential Training (2017) <b>(107)</b></li>
                         <li><i>Lynda</i> - Social Media Marketing with FaceBook and Twitter <b>(44)</b></li>
                         <li><i>Lynda</i> - LinkedIn Essential Training <b>(24)</b></li>
-                        <li><i>Lynda</i> - Up and Running with Skype for Windows <b>(32)</b></li>
                         <li><i>Lynda</i> - YouTube Essential Training <b>(28)</b></li>
 						<li><i>Lynda</i> - Paypal Essential Training (2015) <b>(113)</b></li>
                         <li><i>Lynda</i> - Up and Running with Bitcoin (2014) <b>(107)</b></li> 
@@ -999,6 +1005,14 @@
 					<ol>
 						<li><i>Lynda</i> - Amazon Web Services Essential Training (2017) <b>(EHD)</b></li>
 						<li><i>Lynda</i> - Introduction to AWS for Non-Engineers -1 Cloud Concepts (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - AWS Essential Training for Architects (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - AWS Certified Solutions Architect - Associate- 1 Cloud Services Overview (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - AWS Certified Solutions Architect - Associate- 2 Storage Design (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - AWS Certified Solutions Architect - Associate- 3 Virtual Private Cloud (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - AWS Certified Solutions Architect - Associate- 4 Compute Services (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Exam Tips- AWS Certified Solutions Architect - Associate (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Amazon Workspaces- Deploy Virtual Desktops (2018) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Amazon Web Services- Controlling Cost (2018) <b>(EHD)</b></li>
 					</ol>
 				<h2 id="gcl" >Google Cloud <a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
   <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
@@ -1019,36 +1033,67 @@
   <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
 </svg></a> </h2>
 					<ol>
-                        <li><i>Lynda</i> - Microsoft Azure for Developers (2016) <b>(82)</b></li>
 						<li><i>Lynda</i> - Microsoft Cloud Fundamentals- Explore Cloud Services (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Azure Administration Essential Training (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Azure Active Directory- Basics (2020) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Azure Administration- Implement and Manage Storage (2020) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Azure Administration- Deploy and Manage Virtual Machines (2020) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Implementing Remote Desktop Services in Azure (2018) <b>(EHD)</b></li>
+                        <li><i>Lynda</i> - Microsoft Azure- Controlling Cost (2020) <b>(EHD)</b></li>
+                        <li><i>Lynda</i> - Planning a Microsoft Cloud Solution (2018) <b>EHD)</b></li>
+                        <li><i>Lynda</i> - Microsoft Azure for Developers (2016) <b>(82)</b></li>
 					</ol>
 				<h2 id="o365">Microsoft 365 <a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
   <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
 </svg></a></h2>
 						<h3 id="oad">Administration</h3>
 							<ol>
-								<li><i>Lynda</i> - Microsoft 365 First Look (2018) <b>(EHD)</b></li> 
+								<li><i>Lynda</i> - Microsoft Office 365- Administration (2020) <b>(EHD)</b></li>
+								<li><i>Lynda</i> - Microsoft Cloud Fundamentals- Administering Office 365 and Intune (2019) <b>(EHD)</b></li>
 								<li><i>Lynda</i> - Microsoft 365 Essential Training (2019) <b>(EHD)</b></li>
+								<li><i>Lynda</i> - Microsoft 365 Business Essential Training for SMBs (2019) <b>(EHD)</b></li>
+								<li><i>Lynda</i> - Microsoft 365 First Look (2018) <b>(EHD)</b></li> 
 								<li><i>Lynda</i> - Office 365 New Features (2018) <b>(EHD)</b></li>
 								<li><i>Lynda</i> - Microsoft Office 365 Deployment (2018) <b>(EHD)</b></li>
-								<li><i>Lynda</i> - Microsoft 365 Business Essential Training for SMBs (2019) <b>(EHD)</b></li>
+								<li><i>Lynda</i> - Learning Office 365 Groups (2016) <b>(EHD)</b></li>
+								<li><i>Lynda</i> - Office 365- Groups for Administrators (2016) <b>(EHD)</b></li>
 							</ol>	
 						<h3 id="oex">Exchange</h3>
 							<ol>
 								<li><i>Lynda</i> - Microsoft Cloud Fundamentals- Exchange Online and Security (2020) <b>(EHD)</b></li>
+								<li><i>Lynda</i> - Office 365- Configure Exchange Online and Skype for Business Online for End Users (2018) <b>(EHD)</b></li>
+								<li><i>Lynda</i> - Outlook on the web Essential Training <b>(EHD)</b></li>
 								<li><i>Lynda</i> - Outlook Essential Training (Office 365) (2019) <b>(EHD)</b></li>
 							</ol>	
 						<h3 id="osot">Sharepoint,OneDrive,Teams</h3>
 							<ol>
-								<li><i>Lynda</i> - SharePoint 2019 Essential Training -The Basics (2018) <b>(EHD)</b></li>
+								<li><i>Lynda</i> - Configure and Manage SharePoint Online (2020) <b>(EHD)</b></li>                 
+								<li><i>Lynda</i> - Learning SharePoint Online (2019) <b>(EHD)</b></li>                            
 								<li><i>Lynda</i> - SharePoint Online Essential Training -The Basics (2018) <b>(EHD)</b></li>
+								<li><i>Lynda</i> - SharePoint Online Essential Training- Beyond the Basics (2019) <b>(EHD)</b></li>
+								<li><i>Lynda</i> - SharePoint 2019 Essential Training -The Basics (2018) <b>(EHD)</b></li>
 								<li><i>Lynda</i> - SharePoint Online Essential Training (2017) <b>(EHD)</b></li>
-								<li><i>Lynda</i> - Team Collaboration in Office 365 (2017) <b>(EHD)</b></li>
+								<li><i>Lynda</i> - SharePoint Online Admin Essential Training (2019) <b>(EHD)</b></li>            
+								<li><i>Lynda</i> - SharePoint Online- Managing Documents (2018) <b>(EHD)</b></li>                 
+								<li><i>Lynda</i> - Learning OneDrive (2020) <b>(EHD)</b></li>                                      
+								<li><i>Lynda</i> - Configure and Manage OneDrive and Teams (2020) <b>(EHD)</b></li>                
+								<li><i>Lynda</i> - OneDrive for Business Essential Training (2019) <b>(EHD)</b></li>              
 								<li><i>Lynda</i> - Learning OneDrive (2017) <b>(EHD)</b></li>
+								<li><i>Lynda</i> - Microsoft Teams Essential Training (2020) <b>(EHD)</b></li>                     
+								<li><i>Lynda</i> - Microsoft Collaboration- SharePoint, Teams, and Groups (2020) <b>(EHD)</b></li> 
+								<li><i>Lynda</i> - Team Collaboration in Office 365 (Microsoft 365) (2020) <b>(EHD)</b></li> 
+								<li><i>Lynda</i> - Microsoft Cloud Fundamentals- SharePoint Online, OneDrive,and Teams (2019) <b>(EHD)</b></li>                                                     
+								<li><i>Lynda</i> - Team Collaboration in Office 365 (2017) <b>(EHD)</b></li>
+								<li><i>Lynda</i> - Yammer Essential Training (2016) <b>(EHD)</b></li>
+								<li><i>Udemy</i> - SharePoint Online - Fundamental Introduction for beginners (2020) <b>(EHD)</b></li>
+								<li><i>Pluralsight</i> - Configuring and Managing Microsoft SharePoint Online (2020) <b>(EHD)</b></li>    
+								<li><i>PluralSight</i> - Getting Started with Microsoft Teams and Office 365 Groups Administration (2020) <b>(EHD)</b></li>                                         
 							</ol>	
 						<h3 id="otrb">Troubleshooting</h3>
 							<ol>
 								<li><i>Lynda</i> - Microsoft Cloud Fundamentals- Troubleshooting Microsoft Online Services (2020) <b>(EHD)</b></li>
+								<li><i>Lynda</i> - Office 365 for Administrators- Supporting Users (2020) <b>(EHD)</b></li>
+								<li><i>Lynda</i> - Office 365 for Administrators- Troubleshooting Issues for Users (2020) <b>(EHD)</b></li>
 							</ol>
 					
             <h1 id="wb" >WEB DESIGNING&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
@@ -1279,6 +1324,7 @@
 						<li><i>Lynda</i> - Building a Progressive Web App (2016) <b>(95)</b></li>
                         <li><i>Lynda</i> - Managing a Hosted Web Site <b>(28)</b></li>
                         <li><i>Lynda</i> - React Creating and Hosting a Full-Stack Site (2019) <b>(EHD)</b></li>
+                        <li><i>Lynda</i> - Learning Chrome Web Developer Tools (2020) <b>(EHD)</b></li>
                         <li><i>Udemy</i> - The Complete Web Developer Master Class <b>(36)/(37)</b></li>
                         <li><i>Udemy</i> - Build an e-Commerce WebSite from Scratch with PHP and Bootstrap <b>(55)</b></li>
                         <li><i>Udemy</i> - Build a Web Development Lab for Scratch <b>(55)</b></li>
@@ -1324,8 +1370,11 @@
 </svg></a></h2>
 					<ol>
 						<li><i>Lynda</i> - Word 2016 Essential Training (2016) <b>(122)</b></li>
+						<li><i>Lynda</i> - Word 2016- Mail Merge in Depth (2016) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Word- Mail Merge for Beginners (2019) <b>(EHD)</b></li>
                         <li><i>Lynda</i> - Excel 2016 Essential Training (2015) <b>(106)/(122)</b></li>
                         <li><i>Lynda</i> - Excel 2016- Cleaning Up Your Data (2017) <b>(106)</b></li>
+                        <li><i>Lynda</i> - Excel 2016- Advanced Formulas and Functions (2016) <b>(EHD)</b></li>
                         <li><i>Lynda</i> - Excel 2013- Macros in Depth (2014) <b>(92)</b></li>
                         <li><i>Lynda</i> - Excel VBA in Depth (2010) <b>(106)</b></li>
                         <li><i>Lynda</i> - Learning VBA in Excel (2019) <b>(EHD)</b></li>
@@ -1345,13 +1394,21 @@
 							  <span class="crr">iii. Excel-VBA for Creative Problem Solving Specialization Part3 - Projects </span><br>
                         <li>Basic Excel Shortcuts For 11 Everyday Tasks Get 65% Faster <b>(106)</b></li>
 					</ol>
-					
+				<h2 id="msp">Microsoft Power Platform&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+						<path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+				</svg></a></h2>
+					<ol>
+						<li><i>Lynda</i> - Power BI Essential Training (2020) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Learning Power BI Desktop (2020) <b>(EHD)</b></li>
+					</ol>
+
 				<h2 id="gl">Google Apps&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
   <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
 </svg></a></h2>
 					<ol>
 						<li><i>Lynda</i> - Google Docs Essential Training (2015) <b>(122)</b></li>
 						<li><i>Lynda</i> - Google Sheets Essential Training (2014) <b>(122)</b></li>
+						<li><i>Lynda</i> - Google Sheets- Advanced Formulas and Functions (2018) <b>(EHD)</b></li>
 						<li><i>Lynda</i> - Google Drive Essential Training <b>(37)</b></li>
                         <li><i>Lynda</i> - Gmail Essential Training (2016) <b>(66)</b></li>
 						<li><i>Lynda</i> - Gmail Essential Training (2020) <b>(EHD)</b></li>
@@ -1365,7 +1422,11 @@
   <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
 </svg></a></h2>
 					<ol>
-						<li><i>Lynda</i> - <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Acrobat DC Essential Training (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Acrobat DC- Using the Document Cloud Features (2018) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Creating Accessible PDFs (2018) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Acrobat XI- Creating Forms (2013) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Acrobat X Essential Training (2010) <b>(EHD)</b></li>
 					</ol>	
 				<h2 id="dbx">Dropbox&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
   <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
@@ -1375,13 +1436,24 @@
 						<li><i>Lynda</i> - Up and Running with Dropbox (2015) <b>(EHD)</b></li>
 						<li><i>Lynda</i> - Leverage Dropbox Cloud Storage to Boost Your Productivity (2015) <b>(EHD)</b></li>
 					</ol>
-				<h2 id="sap">SAP&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+				<h2 id="sap">SAP / QB&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
   <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
 </svg></a></h2>
 					<ol>
 						<li><i>Lynda</i> - SAP ERP Essential Training (2018) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - QuickBooks Quick Tips (2019) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - QuickBooks and Excel- Importing and Exporting Transactions (2020) <b>(EHD)</b></li>
 					</ol>
-				
+					<h2 id="olm">Online Meetings&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+						<path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+					  </svg></a></h2>
+					  <ol>
+						<li><i>Lynda</i> - Learning Zoom (2020) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Learning BlueJeans Meetings (2018) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Learning Skype (2018) <b>(EHD)</b></li>
+						<li><i>Lynda</i> - Up and Running with Skype for Windows <b>(32)</b></li>
+					</ol>
+
 			<h1 id="dsn">DESIGN&nbsp<a href="#btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
   <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
 </svg></a></h1>
@@ -1592,5 +1664,5 @@
 </html>
 
 
-<!-- Last Edited: 2020/10/12 09:47 PM -->
+<!-- Last Edited: 2021/06/07 10:15 PM -->
  
